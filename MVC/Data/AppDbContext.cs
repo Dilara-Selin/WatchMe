@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using MVC.Models;
+using System.Collections.Generic;
 
 namespace MVC.Data
 {
@@ -34,25 +35,28 @@ public class AppDbContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
          
-          
-        modelBuilder.Entity<Genre>()
-            .HasIndex(g => g.Name)
-            .IsUnique();
-        
-        modelBuilder.Entity<User>()
+          // User Email için Unique Constraint
+
+           modelBuilder.Entity<User>()
             .HasIndex(u => u.Email)
             .IsUnique();
 
 
-         // Movie Title için Unique kısıtlaması
-        modelBuilder.Entity<Movie>()
+         modelBuilder.Entity<Movie>()
             .HasIndex(m => m.Title)
             .IsUnique();
 
-        // TVShow Title için Unique kısıtlaması
+
+          // TVShow Title için Unique kısıtlaması
         modelBuilder.Entity<TVShow>()
             .HasIndex(t => t.Title)
             .IsUnique();
+            
+        modelBuilder.Entity<Genre>()
+            .HasIndex(g => g.Name)
+            .IsUnique();
+        
+    
 
 
         // Movie ve Genre arasındaki Many-to-Many ilişki

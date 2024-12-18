@@ -7,7 +7,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MVC.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialCreate : Migration
+    public partial class mig_1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -32,10 +32,10 @@ namespace MVC.Migrations
                     MovieId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Title = table.Column<string>(type: "text", nullable: false),
-                    Popularity = table.Column<double>(type: "double precision", nullable: false),
-                    Overview = table.Column<string>(type: "text", nullable: false),
-                    ReleaseDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    PosterPath = table.Column<string>(type: "text", nullable: false)
+                    Popularity = table.Column<double>(type: "double precision", nullable: true),
+                    Overview = table.Column<string>(type: "text", nullable: true),
+                    ReleaseDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    PosterPath = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -49,10 +49,10 @@ namespace MVC.Migrations
                     TVShowId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Title = table.Column<string>(type: "text", nullable: false),
-                    Popularity = table.Column<double>(type: "double precision", nullable: false),
-                    Overview = table.Column<string>(type: "text", nullable: false),
-                    ReleaseDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: false),
-                    PosterPath = table.Column<string>(type: "text", nullable: false)
+                    Popularity = table.Column<double>(type: "double precision", nullable: true),
+                    Overview = table.Column<string>(type: "text", nullable: true),
+                    ReleaseDate = table.Column<DateTime>(type: "timestamp with time zone", nullable: true),
+                    PosterPath = table.Column<string>(type: "text", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -66,7 +66,8 @@ namespace MVC.Migrations
                     UserId = table.Column<int>(type: "integer", nullable: false)
                         .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.IdentityByDefaultColumn),
                     Nickname = table.Column<string>(type: "text", nullable: false),
-                    Email = table.Column<string>(type: "text", nullable: false)
+                    Email = table.Column<string>(type: "text", nullable: false),
+                    PasswordHash = table.Column<string>(type: "text", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -326,6 +327,12 @@ namespace MVC.Migrations
                 });
 
             migrationBuilder.CreateIndex(
+                name: "IX_Genres_Name",
+                table: "Genres",
+                column: "Name",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_MovieComments_MovieId",
                 table: "MovieComments",
                 column: "MovieId");
@@ -349,6 +356,12 @@ namespace MVC.Migrations
                 name: "IX_MovieLikes_UserId",
                 table: "MovieLikes",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Movies_Title",
+                table: "Movies",
+                column: "Title",
+                unique: true);
 
             migrationBuilder.CreateIndex(
                 name: "IX_MovieWatchLists_UserId",
@@ -381,9 +394,116 @@ namespace MVC.Migrations
                 column: "UserId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_TVShows_Title",
+                table: "TVShows",
+                column: "Title",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
                 name: "IX_TVShowWatchLists_UserId",
                 table: "TVShowWatchLists",
                 column: "UserId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Users_Email",
+                table: "Users",
+                column: "Email",
+                unique: true);
+
+
+            migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""Romance_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 10749;
+            ");
+
+            migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""Horror_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 27;
+            ");
+
+            migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""Comedy_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 35;
+            ");
+
+             migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""Action_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 28;
+            ");
+
+
+             migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""ScienceFiction_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 878;
+            ");
+
+            migrationBuilder.Sql(@"
+                CREATE OR REPLACE VIEW ""Animation_Movies"" AS
+                SELECT m.""PosterPath"", m.""Title""
+                FROM ""Movies"" m
+                INNER JOIN ""MovieGenres"" mg ON m.""MovieId"" = mg.""MovieId""
+                WHERE mg.""GenreId"" = 16;
+            ");
+
+
+            migrationBuilder.Sql(@"
+            CREATE OR REPLACE VIEW ""ActionAdventure_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 10759;
+
+            CREATE OR REPLACE VIEW ""Drama_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 18;
+
+            CREATE OR REPLACE VIEW ""Comedy_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 35;
+
+            CREATE OR REPLACE VIEW ""Family_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 10751;
+
+            CREATE OR REPLACE VIEW ""Mystery_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 9648;
+
+            CREATE OR REPLACE VIEW ""Crime_TVShows"" AS
+            SELECT t.""PosterPath"", t.""Title"" 
+            FROM ""TVShows"" t
+            JOIN ""TVShowGenres"" tg ON t.""TVShowId"" = tg.""TVShowId""
+            WHERE tg.""GenreId"" = 80;
+        ");
+
+
+
+
+
+
         }
 
         /// <inheritdoc />
@@ -430,6 +550,26 @@ namespace MVC.Migrations
 
             migrationBuilder.DropTable(
                 name: "Users");
+
+            migrationBuilder.Sql(@"
+                DROP VIEW IF EXISTS ""Romance_Movies"";
+                DROP VIEW IF EXISTS ""Horror_Movies"";
+                DROP VIEW IF EXISTS ""Comedy_Movies"";
+                DROP VIEW IF EXISTS ""Action_Movies"";
+                DROP VIEW IF EXISTS ""ScienceFiction_Movies"";
+                DROP VIEW IF EXISTS ""Animation_Movies"";
+            ");
+
+
+            migrationBuilder.Sql(@"
+                DROP VIEW IF EXISTS ""ActionAdventure_TVShows"";
+                DROP VIEW IF EXISTS ""Drama_TVShows"";
+                DROP VIEW IF EXISTS ""Comedy_TVShows"";
+                DROP VIEW IF EXISTS ""Family_TVShows"";
+                DROP VIEW IF EXISTS ""Mystery_TVShows"";
+                DROP VIEW IF EXISTS ""Crime_TVShows"";
+            ");
+
         }
     }
 }

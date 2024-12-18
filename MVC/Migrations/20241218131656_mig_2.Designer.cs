@@ -12,8 +12,8 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace MVC.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20241216225708_InitialCreate")]
-    partial class InitialCreate
+    [Migration("20241218131656_mig_2")]
+    partial class mig_2
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -39,6 +39,9 @@ namespace MVC.Migrations
 
                     b.HasKey("GenreId");
 
+                    b.HasIndex("Name")
+                        .IsUnique();
+
                     b.ToTable("Genres");
                 });
 
@@ -51,17 +54,15 @@ namespace MVC.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("MovieId"));
 
                     b.Property<string>("Overview")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<double>("Popularity")
+                    b.Property<double?>("Popularity")
                         .HasColumnType("double precision");
 
                     b.Property<string>("PosterPath")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("ReleaseDate")
+                    b.Property<DateTime?>("ReleaseDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Title")
@@ -69,6 +70,9 @@ namespace MVC.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("MovieId");
+
+                    b.HasIndex("Title")
+                        .IsUnique();
 
                     b.ToTable("Movies");
                 });
@@ -178,17 +182,15 @@ namespace MVC.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("TVShowId"));
 
                     b.Property<string>("Overview")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<double>("Popularity")
+                    b.Property<double?>("Popularity")
                         .HasColumnType("double precision");
 
                     b.Property<string>("PosterPath")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("ReleaseDate")
+                    b.Property<DateTime?>("ReleaseDate")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("Title")
@@ -196,6 +198,9 @@ namespace MVC.Migrations
                         .HasColumnType("text");
 
                     b.HasKey("TVShowId");
+
+                    b.HasIndex("Title")
+                        .IsUnique();
 
                     b.ToTable("TVShows");
                 });
@@ -312,7 +317,14 @@ namespace MVC.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("PasswordHash")
+                        .IsRequired()
+                        .HasColumnType("text");
+
                     b.HasKey("UserId");
+
+                    b.HasIndex("Email")
+                        .IsUnique();
 
                     b.ToTable("Users");
                 });

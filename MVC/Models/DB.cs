@@ -2,6 +2,8 @@ using System;
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 public class User
 {
@@ -10,11 +12,19 @@ public class User
     public string Email { get; set; } = string.Empty;
 
     private string _passwordHash = string.Empty;
+    
+    // Password yerine PasswordHash kullanılacak
+    public string PasswordHash
+    {
+        get { return _passwordHash; }  // Şifre hash'ini dışarıya verir
+        private set { _passwordHash = value; }  // Sadece dahili olarak değiştirilebilir
+    }
+
     public string Password
     {
         set
         {
-            _passwordHash = HashPassword(value);
+            PasswordHash = HashPassword(value);  // Şifreyi hash'le
         }
     }
 
@@ -26,6 +36,8 @@ public class User
             return BitConverter.ToString(bytes).Replace("-", "").ToLower();  // Hash değeri döndür
         }
     }
+
+
 
     public ICollection<MovieLike>? MovieLikes { get; set; } = new List<MovieLike>();
     public ICollection<TVShowLike>? TVShowLikes { get; set; } = new List<TVShowLike>();
