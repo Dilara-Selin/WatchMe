@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/images/background.png"
     },
     {
+      "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/js/register.js",
+      "PackagePath": "staticwebassets/js/register.js"
+    },
+    {
       "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
