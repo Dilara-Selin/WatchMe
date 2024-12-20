@@ -4,10 +4,50 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <style>
+        .toast-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            z-index: 9999;
+        }
+
+        .toast {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
+        }
+
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .toast.success {
+            background-color: #28a745;
+        }
+
+        .toast.error {
+            background-color: #dc3545;
+        }
+
+        .toast.info {
+            background-color: #17a2b8;
+        }
+
+        .toast.warning {
+            background-color: #ffc107;
+        }
+    </style>
 </head>
 <body>
 
-  <form>
+  <form id="registerForm">
     <div class="content">
       <div class="content-box">
         <h2>Create an Account</h2>
@@ -39,6 +79,11 @@
     </div>
   </form>
 
-  <script src="register.js"></script> <!-- register.js dosyanızın yolu burada -->
+  <!-- Toast Container -->
+  <div id="toast-container" class="toast-container"></div>
+
+  <!-- Include the external JS file -->
+  <script src="~/js/register.js"></script>
+
 </body>
 </html>

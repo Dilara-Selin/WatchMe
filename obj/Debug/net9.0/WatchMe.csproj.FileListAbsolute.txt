@@ -191,4 +191,5 @@
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.pdb
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.genruntimeconfig.cache
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/ref/WatchMe.dll
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/qa7upjqgk3-7m03nc938w.gz
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/qa7upjqgk3-xl5zl6a7kb.gz
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/w1yh1vp6ya-muq5q80ifw.gz

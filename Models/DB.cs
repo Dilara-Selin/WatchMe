@@ -7,56 +7,32 @@ using System.ComponentModel.DataAnnotations.Schema;
 public class User
 {
     public int UserId { get; set; }
-    public string Nickname { get; set; } = string.Empty;
-    public string Email { get; set; } = string.Empty;
+    public required string Nickname { get; set; }
+    public required string Email { get; set; }
 
-    private string _passwordHash = string.Empty;
+    // Password, hash'lenmiş haliyle veritabanında saklanacak
+    public required string Password { get; set; }
 
-    // PasswordHash ve Salt alanları özel olarak erişilebilir.
-    public string PasswordHash
+    // Şifreyi doğrulamak için kullanılan metot
+    public bool VerifyPassword(string enteredPassword)
     {
-        get { return _passwordHash; }
-        private set { _passwordHash = value; }
+        // Şifre doğrulama sırasında hash'lenmiş şifre ile karşılaştırma yapılır
+        var enteredPasswordHash = HashPassword(enteredPassword);
+        return Password == enteredPasswordHash;
     }
 
-    public string Salt { get; private set; } = string.Empty;
-
-    public string Password
+    // Hashleme metodu (şifre doğrulama için kullanılacak)
+    private string HashPassword(string password)
     {
-        set
+        using (var sha256 = SHA256.Create())
         {
-            Salt = GenerateSalt(); // Yeni bir salt oluştur.
-            PasswordHash = HashPassword(value, Salt); // Şifreyi hash'le ve salt ile birlikte sakla.
+            var passwordBytes = Encoding.UTF8.GetBytes(password);
+            var hashedBytes = sha256.ComputeHash(passwordBytes);
+            return Convert.ToBase64String(hashedBytes);
         }
     }
 
-    // Şifreyi hash'lemek için bir metot
-    public static string HashPassword(string password, string salt)
-    {
-        using (var hmac = new HMACSHA256(Encoding.UTF8.GetBytes(salt)))
-        {
-            var hash = hmac.ComputeHash(Encoding.UTF8.GetBytes(password));
-            return Convert.ToBase64String(hash);
-        }
-    }
 
-    // Rastgele bir salt oluşturmak için bir metot
-    private static string GenerateSalt()
-    {
-        byte[] saltBytes = new byte[16];
-        using (var rng = RandomNumberGenerator.Create())
-        {
-            rng.GetBytes(saltBytes);
-        }
-        return Convert.ToBase64String(saltBytes);
-    }
-
-    // Şifre doğrulama metodu
-    public bool VerifyPassword(string password)
-    {
-        string hash = HashPassword(password, Salt);
-        return hash == PasswordHash;
-    }
 
     public ICollection<MovieLike>? MovieLikes { get; set; } = new List<MovieLike>();
     public ICollection<TVShowLike>? TVShowLikes { get; set; } = new List<TVShowLike>();

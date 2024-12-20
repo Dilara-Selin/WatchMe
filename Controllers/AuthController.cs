@@ -2,7 +2,11 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using WatchMe.Data;
 using WatchMe.Models;
-using WatchMe.Dtos;  // DTO namespace'ini dahil et
+using WatchMe.Dtos;
+using System.Security.Cryptography;
+using System.Text;
+using System.Threading.Tasks;
+using System;
 
 namespace WatchMe.Controllers
 {
@@ -17,43 +21,96 @@ namespace WatchMe.Controllers
             _context = context;
         }
 
-        // Register
+        // E-posta kontrolü
+        [HttpPost("check-email")]
+        public async Task<IActionResult> CheckEmail([FromBody] EmailCheckRequest emailRequest)
+        {
+            var emailExists = await _context.Users.AnyAsync(u => u.Email == emailRequest.Email);
+            return Ok(new { isEmailTaken = emailExists });
+        }
+
+        // Register (kayıt işlemi)
         [HttpPost("register")]
         public async Task<IActionResult> Register([FromBody] UserDto userDto)
         {
-            // Email adresinin zaten kullanılıp kullanılmadığını kontrol et
-            if (await _context.Users.AnyAsync(u => u.Email == userDto.Email))
-                return BadRequest("User with this email already exists");
-
-            // Şifreyi ayarla ve User modeline dönüştür
-            var user = new User
+            try
             {
-                Nickname = userDto.Nickname,
-                Email = userDto.Email,
-                Password = userDto.Password  // Bu işlem şifre hashleme ve salt oluşturmayı tetikler
-            };
+                // Email adresinin zaten kullanılıp kullanılmadığını kontrol et
+                if (await _context.Users.AnyAsync(u => u.Email == userDto.Email))
+                    return BadRequest("User with this email already exists");
 
-            // Kullanıcıyı veritabanına ekle
-            _context.Users.Add(user);
-            await _context.SaveChangesAsync();
+                // Nickname zorunlu olmalı
+                if (string.IsNullOrEmpty(userDto.Nickname))
+                    return BadRequest("Nickname is required");
 
-            return Ok("User registered successfully");
+                // Şifreyi hash'le
+                var hashedPassword = HashPassword(userDto.Password);
+
+                // Kullanıcıyı veritabanına ekle (şifreyi hash'leyerek kaydediyoruz)
+                var user = new User
+                {
+                    Nickname = userDto.Nickname,  // Nickname kayıt sırasında zorunlu
+                    Email = userDto.Email,
+                    Password = hashedPassword  // Hashlenmiş şifreyi veritabanına kaydediyoruz
+                };
+
+                _context.Users.Add(user);
+                await _context.SaveChangesAsync();
+
+                return Ok("User registered successfully");
+            }
+            catch (DbUpdateException ex)
+            {
+                return StatusCode(500, $"Database error: {ex.Message}");
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, $"Internal server error: {ex.Message}");
+            }
         }
 
-        // Login
+        // Login (giriş işlemi)
         [HttpPost("login")]
         public async Task<IActionResult> Login([FromBody] UserDto loginDto)
         {
-            // Kullanıcıyı email adresine göre bul
+            if (loginDto == null)
+            {
+                return BadRequest("Invalid login data.");
+            }
+
             var user = await _context.Users.SingleOrDefaultAsync(u => u.Email == loginDto.Email);
-            if (user == null) 
+            if (user == null)
                 return Unauthorized("Invalid email or password");
 
-            // Şifre doğrulama
-            if (!user.VerifyPassword(loginDto.Password))
+            // Şifreyi doğrulama işlemi
+            if (!VerifyPassword(user.Password, loginDto.Password))
                 return Unauthorized("Invalid email or password");
 
-            return Ok("Login successful");
+            return Ok(new { message = "Login successful" });
         }
+
+        // Şifreyi doğrulama metodu (girdiğimiz şifreyi hash'leyip kontrol ediyoruz)
+        private bool VerifyPassword(string storedPassword, string enteredPassword)
+        {
+            var enteredPasswordHash = HashPassword(enteredPassword);
+            return storedPassword == enteredPasswordHash;
+        }
+
+        // Şifreyi hash'leme metodu
+        private string HashPassword(string password)
+        {
+            using (var sha256 = SHA256.Create())
+            {
+                var passwordBytes = Encoding.UTF8.GetBytes(password);
+                var hashedBytes = sha256.ComputeHash(passwordBytes);
+                return Convert.ToBase64String(hashedBytes);
+            }
+        }
+    }
+
+    // E-posta kontrolü için request model
+    public class EmailCheckRequest
+    {
+        public required string Email { get; set; }  // required ekledik
     }
 }

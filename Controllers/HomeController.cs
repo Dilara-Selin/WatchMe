@@ -12,6 +12,11 @@ namespace WatchMe.Controllers
         {
             return View();
         }
+         [HttpGet("LoginSuccess")]
+    public IActionResult LoginSuccess()
+    {
+        return View();  // Returns the LoginSuccess.cshtml view
+    }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
