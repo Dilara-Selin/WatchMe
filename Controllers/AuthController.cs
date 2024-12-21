@@ -6,7 +6,6 @@ using WatchMe.Dtos;
 using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
-using System;
 
 namespace WatchMe.Controllers
 {
@@ -39,19 +38,15 @@ namespace WatchMe.Controllers
                 if (await _context.Users.AnyAsync(u => u.Email == userDto.Email))
                     return BadRequest("User with this email already exists");
 
-                // Nickname zorunlu olmalı
-                if (string.IsNullOrEmpty(userDto.Nickname))
-                    return BadRequest("Nickname is required");
-
                 // Şifreyi hash'le
                 var hashedPassword = HashPassword(userDto.Password);
 
-                // Kullanıcıyı veritabanına ekle (şifreyi hash'leyerek kaydediyoruz)
+                // Kullanıcıyı veritabanına ekle
                 var user = new User
                 {
-                    Nickname = userDto.Nickname,  // Nickname kayıt sırasında zorunlu
+                    Nickname = userDto.Nickname, // Nickname eklendi
                     Email = userDto.Email,
-                    Password = hashedPassword  // Hashlenmiş şifreyi veritabanına kaydediyoruz
+                    Password = hashedPassword  // Hashlenmiş şifre kaydediliyor
                 };
 
                 _context.Users.Add(user);
@@ -71,7 +66,7 @@ namespace WatchMe.Controllers
 
         // Login (giriş işlemi)
         [HttpPost("login")]
-        public async Task<IActionResult> Login([FromBody] UserDto loginDto)
+        public async Task<IActionResult> Login([FromBody] LoginDto loginDto)
         {
             if (loginDto == null)
             {
@@ -111,6 +106,13 @@ namespace WatchMe.Controllers
     // E-posta kontrolü için request model
     public class EmailCheckRequest
     {
-        public required string Email { get; set; }  // required ekledik
+        public required string Email { get; set; } // required ekledik
+    }
+
+    // Login için DTO
+    public class LoginDto
+    {
+        public required string Email { get; set; }
+        public required string Password { get; set; }
     }
 }

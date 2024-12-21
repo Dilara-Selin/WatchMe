@@ -4,46 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <style>
-        .toast-container {
-            position: fixed;
-            bottom: 20px;
-            left: 20px;
-            z-index: 9999;
-        }
-
-        .toast {
-            background-color: #333;
-            color: white;
-            padding: 10px;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            opacity: 0;
-            transform: translateY(20px);
-            transition: opacity 0.5s ease, transform 0.5s ease;
-        }
-
-        .toast.show {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-        .toast.success {
-            background-color: #28a745;
-        }
-
-        .toast.error {
-            background-color: #dc3545;
-        }
-
-        .toast.info {
-            background-color: #17a2b8;
-        }
-
-        .toast.warning {
-            background-color: #ffc107;
-        }
-    </style>
+    <link rel="stylesheet" href="~/css/styles.css">
 </head>
 <body>
 
@@ -67,7 +28,6 @@
           <label for="confirmPassword" class="form-label">Confirm Password</label>
           <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm your password" />
         </div>
-        <!-- Centering the button -->
         <div class="text-center">
           <button type="submit" class="btn btn-primary">Register</button>
         </div>
@@ -79,10 +39,11 @@
     </div>
   </form>
 
-  <!-- Toast Container -->
+  <!-- Toast Container for Notifications -->
   <div id="toast-container" class="toast-container"></div>
 
-  <!-- Include the external JS file -->
+  <!-- Include common JS file -->
+  <script src="~/js/common.js"></script>
   <script src="~/js/register.js"></script>
 
 </body>

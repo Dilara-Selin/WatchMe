@@ -1,22 +1,23 @@
-document.addEventListener('DOMContentLoaded', function() {
+document.addEventListener('DOMContentLoaded', function () {
   const loginForm = document.querySelector('form');
   const emailInput = document.getElementById('email');
   const passwordInput = document.getElementById('password');
 
-  loginForm.addEventListener('submit', async function(e) {
-    e.preventDefault(); // Prevent the form from submitting the traditional way
+  loginForm.addEventListener('submit', async function (e) {
+    e.preventDefault(); // Geleneksel form gönderimini engelle
 
     const email = emailInput.value.trim();
     const password = passwordInput.value.trim();
 
+    // Boş giriş kontrolü
     if (!email || !password) {
-      alert("Please fill in both email and password.");
+      showToast("Please fill in both email and password.", 'error');
       return;
     }
 
     const loginData = {
-      Email: email,
-      Password: password
+      email,
+      password
     };
 
     try {
@@ -30,15 +31,14 @@ document.addEventListener('DOMContentLoaded', function() {
 
       if (response.ok) {
         const result = await response.json();
-        alert(result.message); // Show the success message
-        window.location.href = "/Home/LoginSuccess"; // Redirect to the LoginSuccess page
+        showToast(result.message, 'success');
+        window.location.href = "/LoginSuccess";
       } else {
         const error = await response.json();
-        alert(error.message); // Show error message
+        showToast(error.message || 'Invalid login credentials.', 'error');
       }
     } catch (error) {
-      console.error('Error:', error);
-      alert('An error occurred while logging in. Please try again later.');
+      showToast('An error occurred while logging in. Please try again later.', 'error');
     }
   });
 });
