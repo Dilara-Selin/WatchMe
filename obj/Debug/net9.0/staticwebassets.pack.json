@@ -29,10 +29,6 @@
       "PackagePath": "staticwebassets/js/register.js"
     },
     {
-      "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/js/site.js",
-      "PackagePath": "staticwebassets/js/site.js"
-    },
-    {
       "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },

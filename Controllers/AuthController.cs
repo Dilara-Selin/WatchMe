@@ -21,12 +21,12 @@ namespace WatchMe.Controllers
         }
 
         // E-posta kontrolü
-        [HttpPost("check-email")]
-        public async Task<IActionResult> CheckEmail([FromBody] EmailCheckRequest emailRequest)
-        {
-            var emailExists = await _context.Users.AnyAsync(u => u.Email == emailRequest.Email);
-            return Ok(new { isEmailTaken = emailExists });
-        }
+       [HttpGet("check-email")]
+public async Task<IActionResult> CheckEmail([FromQuery] string email)
+{
+    var emailExists = await _context.Users.AnyAsync(u => u.Email == email);
+    return Ok(new { isEmailTaken = emailExists });
+}
 
         // Register (kayıt işlemi)
         [HttpPost("register")]

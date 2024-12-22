@@ -113,7 +113,6 @@
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/projectbundle/WatchMe.bundle.scp.css
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/kyil2p6jq3-61n19gt1b8.gz
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/5upo3mt9e2-xtxxf3hu2r.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/tni0n2a9v1-bqjiyaj88i.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/atyqx7dbvt-c2jlpeoesf.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/700j0cmmbg-erw9l3u2r3.gz
@@ -190,7 +189,7 @@
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.pdb
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.genruntimeconfig.cache
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/ref/WatchMe.dll
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/ecol216jhe-o2gld831cr.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/lgm9hwzaov-mnts93ohsr.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/w1yh1vp6ya-n1m4wiy8qa.gz
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/qa7upjqgk3-mlvrsegrhh.gz
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/ecol216jhe-2rpazmqv7r.gz
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/qa7upjqgk3-iov0ali2e9.gz
