@@ -1,0 +1,75 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Logonetflix.png" alt="Netflix Logo" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="/Home/Index">Anasayfa</a>
+                </li>
+                <!-- Diziler için Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="seriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Diziler
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="seriesDropdown">
+                        <li><a class="dropdown-item" href="#">Aksiyon</a></li>
+                        <li><a class="dropdown-item" href="#">Komedi</a></li>
+                        <li><a class="dropdown-item" href="#">Drama</a></li>
+                        <li><a class="dropdown-item" href="#">Gerilim</a></li>
+                    </ul>
+                </li>
+                <!-- Filmler için Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Filmler
+                    </a>
+                    <ul class="dropdown-menu " aria-labelledby="moviesDropdown">
+                        <li><a class="dropdown-item" href="#">Aksiyon</a></li>
+                        <li><a class="dropdown-item" href="#">Bilim Kurgu</a></li>
+                        <li><a class="dropdown-item" href="#">Romantik</a></li>
+                        <li><a class="dropdown-item" href="#">Korku</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="/Home/Netflix">Yeni ve Popüler</a>
+                </li>
+               
+                <li class="nav-item">
+                    <a class="nav-link" asp-controller="Profile" asp-action="Profile">Profil</a>
+                </li>
+            </ul>
+            
+            <form class="d-flex ms-auto position-relative" role="search">
+                <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 20px;">
+                <button class="btn position-absolute end-0 me-2" type="submit" style="background: none; border: none;">
+                    <i class="fas fa-search text-success"></i>
+                </button>
+            </form>
+
+        </div>
+    </div>
+</nav>
+
+<style>
+   
+    input:focus {
+        background-color: rgba(255, 255, 255, 0.9) !important;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    }
+    /* Hover ile açılır menü */
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* Animasyonsuz açılma */
+    padding: 0;
+    border-radius: 20px;
+ 
+}
+
+
+</style>
+
