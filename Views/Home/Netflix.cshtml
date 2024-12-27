@@ -1,59 +1,69 @@
- <section class="hero">
+@using Microsoft.EntityFrameworkCore
+@using WatchMe.Data
+@inject AppDbContext _context;
+
+ <section class="hero" style=" background-image: url('/images/oppenheimer.jpeg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Unlimited movies, TV shows, and more.</h1>
             <p>Watch anywhere. Cancel anytime.</p>
-            <button>Get Started</button>
+            <form action="@Url.Action("Register", "Home")" method="get">
+            <button type="submit" class="btn-get-started">Get Started</button>
+        </form>
         </div>
  </section>
 
 <section>
     <h2>En Yeni Filmler</h2>
-    @await Html.PartialAsync("_NetflixCard")
+   @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.ReleaseDate).Take(6).ToListAsync())
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
 
 <section>
     <h2>En Yeni Diziler</h2>
-     @await Html.PartialAsync("_NetflixCard")
+    @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
 
 <section>
     <h2>Popüler Olanlar</h2>
-     @await Html.PartialAsync("_NetflixCard")
+  @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.Popularity).Take(6).ToListAsync())
     </div>
 </section>
 
- <section class="hero">
+ <section class="hero" style=" background-image: url('/images/gucci.jpeg');">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1>Unlimited movies, TV shows, and more.</h1>
             <p>Watch anywhere. Cancel anytime.</p>
-            <button>Get Started</button>
+            <form action="@Url.Action("Register", "Home")" method="get">
+            <button type="submit" class="btn-get-started">Get Started</button>
+        </form>
         </div>
 </section>
 
 <section >
     <h2>En Yeni Diziler</h2>
-     @await Html.PartialAsync("_NetflixCard")
+    @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
 
 <section>
-    <h2>En Yeni Diziler</h2>
-     @await Html.PartialAsync("_NetflixCard")
+    <h2>En Yeni Filmler</h2>
+    @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.ReleaseDate).Take(6).ToListAsync())
 </section>
 
 
 
 <style>
+    h2{
+        color: #333;
+    }
     .hero {
         position: relative;
-        background-image: url('https://via.placeholder.com/1920x1080');
         background-size: cover;
         background-position: center;
         height: 80vh;

@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 
-namespace watch_me.Controllers;
+namespace WatchMe.Controllers;
 
 public class ProfileController : Controller
 {

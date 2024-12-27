@@ -1,9 +1,12 @@
-﻿
+﻿@using Microsoft.EntityFrameworkCore
+@using WatchMe.Data
+@inject AppDbContext _context;
+
 <div id="demo" class="carousel slide " data-bs-ride="carousel">
-  <div class="carousel-inner">
+    <div class="carousel-inner">
         <section class="hero">
-        <div class="hero-overlay"></div>
- </section>
+            <div class="hero-overlay"></div>
+        </section>
     </div> 
 
     <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
@@ -18,8 +21,8 @@
 
 
 <section>
-    <h2>Öne Çıkanlar</h2>
-    @await Html.PartialAsync("_NetflixCard")
+    <h2>En Popüler</h2>
+    @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.Popularity).Take(6).ToListAsync())
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
@@ -27,10 +30,19 @@
 
 <section>
     <h2>Yeni Çıkanlar</h2>
-    @await Html.PartialAsync("_NetflixCard")
+   @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.ReleaseDate).Take(6).ToListAsync())
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
+
+<section>
+    <h2>Bence İzlemelisin</h2>
+   @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
+</section>
+
+@await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
+@await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
+@await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 
 <section>
     <h2>Beğendiklerin</h2>
@@ -40,15 +52,20 @@
 
 
 <style>
+    h2{
+        color: #333;
+    }
     .hero {
         position: relative;
-        background-image: url('https://via.placeholder.com/1920x1080');
         background-size: cover;
         background-position: center;
-        height: 80vh;
+        height: 100vh;
         display: flex;
         align-items: center;
         justify-content: center;
+        background-image: url('/images/oppenheimer.jpeg'); /* Varsayılan resim */
+        transition: transform 0.5s ease; /* Yatay kayma geçişi */
+        transform: translateX(0); /* Başlangıçta sıfır konumunda */
     }
 
     .hero-overlay {
@@ -92,5 +109,49 @@
     }
 
 </style>
+
+<script>
+    // Resimlerin yolu
+    const images = [
+        "/images/starwors.jpeg",
+        "/images/hobbit.jpg",
+        "/images/oppenheimer.jpeg",
+        "/images/behzat-c.jpg",
+        "/images/gucci.jpeg", 
+        "/images/soylent-green.jpeg",
+        "/images/prens.jpeg",
+        "/images/dugun-dernek.jpg",
+        "/images/doru.jpeg",
+    ];
+ let currentIndex = 0;
+
+    function changeBackgroundImage() {
+        const heroElement = document.querySelector('.hero');
+        
+        // Yeni resme geçiş için pozisyonu ayarlıyoruz
+        heroElement.style.transition = "none"; // Geçici olarak geçişi kaldır
+        heroElement.style.transform = "translateX(100%)"; // Sağ tarafa kaydırıyoruz
+        
+        // Yeni resmi bir süre sonra ayarlıyoruz
+        setTimeout(() => {
+            currentIndex = (currentIndex + 1) % images.length;  // Sonraki resme geçiş
+            heroElement.style.backgroundImage = `url('${images[currentIndex]}')`;
+            heroElement.style.transition = "transform 0.5s ease"; // Geçişi geri getir
+            heroElement.style.transform = "translateX(0)"; // Sol tarafa kaydırarak geçiş yapıyoruz
+        }, 500); // 0.5 saniye sonra yeni resme geçiş
+
+    }
+
+    // Sayfa yüklendiğinde hemen resim değişimini başlat
+    changeBackgroundImage();
+
+    // Buton tıklamalarıyla da resim değiştirme
+    document.querySelector('.carousel-control-prev').addEventListener('click', changeBackgroundImage);
+    document.querySelector('.carousel-control-next').addEventListener('click', changeBackgroundImage);
+
+    // 3 saniyede bir otomatik geçiş başlat
+    setInterval(changeBackgroundImage, 4000);  // 3000 ms = 3 saniye
+</script>
+
 
 

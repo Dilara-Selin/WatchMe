@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YCeyrROT96qubdyRchT0J4KbGRLjr4HbBy54r+0NR3E=",
+  "Hash": "djAVEJzgYmLG7Hk7hU5RNa4DkkfX3Vfhq66FAna+exE=",
   "Source": "WatchMe",
   "BasePath": "_content/WatchMe",
   "Mode": "Default",
@@ -1487,6 +1487,27 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\atatürk.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/atatürk#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "uslj7te6oi",
+      "Integrity": "HlC+49mOjWh7W1v6RfVkhMszDnFMvkn+2Dk3yBe9Bks=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\atatürk.jpeg"
+    },
+    {
       "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\background.png",
       "SourceId": "WatchMe",
       "SourceType": "Discovered",
@@ -1506,6 +1527,300 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\background.png"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\behzat-c.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/behzat-c#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "yyccsvqesk",
+      "Integrity": "qmSrNIAYjikoCAt1ilLBODVPH6mZDRAlf+9dgscbVQE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\behzat-c.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\casoblanca.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/casoblanca#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "dpogwjk1ce",
+      "Integrity": "71IW0occcI/ozov0eAGge76L4y44F2VsmcVHDZmABuY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\casoblanca.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\doru.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/doru#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "02hyvmyjkv",
+      "Integrity": "KP7DDkVhXGyq4MtgEzO0kkb91eMkiFyuBsYLKCs7Ccs=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\doru.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\dügün-dernek.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/dügün-dernek#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "w88ubxbk1e",
+      "Integrity": "QETqrunVmKtb3o75W87zShH4EEP/PL1ARZew29BeSvY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\dügün-dernek.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\gucci.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/gucci#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "apkwvewif8",
+      "Integrity": "zifofUkVvc1y0pGekDoli23Bx2o+kkG6bEo4n1+EZsQ=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\gucci.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\harder-looks.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/harder-looks#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "u88c8f2hat",
+      "Integrity": "vrhTu9/8Xl4Kmu7v/SdeqXbHQTYv5gSAb0yI8V2L+v8=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\harder-looks.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\hobbit.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/hobbit#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "k4omopqgxd",
+      "Integrity": "XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\hobbit.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\oppenheimer.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/oppenheimer#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "mhpgjiysh8",
+      "Integrity": "9n89JAK52n7o/ik41H4FyV8RDD3ohde/Oy8+zRDkEb4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\oppenheimer.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\prens.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/prens#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "21mx64fwvy",
+      "Integrity": "xjPNDZZ8Fqwq7xHmhQFnecpvQigO7vhxt+4AY7q/QLg=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\prens.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\red-one.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/red-one#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "3q76n30smh",
+      "Integrity": "m89KK3CCkpwMgLxlc7ctvTmSBgHUf1ArOTPwb0jKpRM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\red-one.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sahsiyet.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/sahsiyet#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "y0jwgmszbz",
+      "Integrity": "UtDafdpF24kkc6/foEj+0aS0FKsA0ihRfxhnunOXC2U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sahsiyet.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sezginin-kanatları.jpg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/sezginin-kanatları#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "86ntgqzgji",
+      "Integrity": "kAKiqJU2B/J/TZ3AdM5kE9YQH5Cq2lhjYf6PDb93oZM=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\sezginin-kanatları.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\soylent-green.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/soylent-green#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ja61kzyvg3",
+      "Integrity": "G7abQKx9jdYWgzjRzcEgDVn7OflRnyZUmbiBfAapPlI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\soylent-green.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\starwors.jpeg",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/starwors#[.{fingerprint}]?.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "tfomm3eqpg",
+      "Integrity": "OUdCXGtzep5sEhil63xL09VtFXw07xhUJR//8pQYLTE=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\starwors.jpeg"
     },
     {
       "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\js\\common.js",
@@ -3429,6 +3744,88 @@
       ]
     },
     {
+      "Route": "images/atatürk.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\atatürk.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HlC+49mOjWh7W1v6RfVkhMszDnFMvkn+2Dk3yBe9Bks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-HlC+49mOjWh7W1v6RfVkhMszDnFMvkn+2Dk3yBe9Bks="
+        }
+      ]
+    },
+    {
+      "Route": "images/atatürk.uslj7te6oi.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\atatürk.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "9083"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"HlC+49mOjWh7W1v6RfVkhMszDnFMvkn+2Dk3yBe9Bks=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:09 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "uslj7te6oi"
+        },
+        {
+          "Name": "label",
+          "Value": "images/atatürk.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-HlC+49mOjWh7W1v6RfVkhMszDnFMvkn+2Dk3yBe9Bks="
+        }
+      ]
+    },
+    {
       "Route": "images/background.png",
       "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\background.png",
       "Selectors": [],
@@ -3507,6 +3904,1154 @@
         {
           "Name": "integrity",
           "Value": "sha256-hZvDPUSX6uY8Q9bMI0jWWFauKOKDNoXLevnUjz+8mso="
+        }
+      ]
+    },
+    {
+      "Route": "images/behzat-c.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\behzat-c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmSrNIAYjikoCAt1ilLBODVPH6mZDRAlf+9dgscbVQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:38:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmSrNIAYjikoCAt1ilLBODVPH6mZDRAlf+9dgscbVQE="
+        }
+      ]
+    },
+    {
+      "Route": "images/behzat-c.yyccsvqesk.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\behzat-c.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "24658"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qmSrNIAYjikoCAt1ilLBODVPH6mZDRAlf+9dgscbVQE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:38:55 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "yyccsvqesk"
+        },
+        {
+          "Name": "label",
+          "Value": "images/behzat-c.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qmSrNIAYjikoCAt1ilLBODVPH6mZDRAlf+9dgscbVQE="
+        }
+      ]
+    },
+    {
+      "Route": "images/casoblanca.dpogwjk1ce.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\casoblanca.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89524"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71IW0occcI/ozov0eAGge76L4y44F2VsmcVHDZmABuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "dpogwjk1ce"
+        },
+        {
+          "Name": "label",
+          "Value": "images/casoblanca.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-71IW0occcI/ozov0eAGge76L4y44F2VsmcVHDZmABuY="
+        }
+      ]
+    },
+    {
+      "Route": "images/casoblanca.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\casoblanca.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89524"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"71IW0occcI/ozov0eAGge76L4y44F2VsmcVHDZmABuY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:33:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-71IW0occcI/ozov0eAGge76L4y44F2VsmcVHDZmABuY="
+        }
+      ]
+    },
+    {
+      "Route": "images/doru.02hyvmyjkv.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\doru.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KP7DDkVhXGyq4MtgEzO0kkb91eMkiFyuBsYLKCs7Ccs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:38:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "02hyvmyjkv"
+        },
+        {
+          "Name": "label",
+          "Value": "images/doru.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-KP7DDkVhXGyq4MtgEzO0kkb91eMkiFyuBsYLKCs7Ccs="
+        }
+      ]
+    },
+    {
+      "Route": "images/doru.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\doru.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "13981"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"KP7DDkVhXGyq4MtgEzO0kkb91eMkiFyuBsYLKCs7Ccs=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:38:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-KP7DDkVhXGyq4MtgEzO0kkb91eMkiFyuBsYLKCs7Ccs="
+        }
+      ]
+    },
+    {
+      "Route": "images/dügün-dernek.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\dügün-dernek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QETqrunVmKtb3o75W87zShH4EEP/PL1ARZew29BeSvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:37:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-QETqrunVmKtb3o75W87zShH4EEP/PL1ARZew29BeSvY="
+        }
+      ]
+    },
+    {
+      "Route": "images/dügün-dernek.w88ubxbk1e.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\dügün-dernek.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "96303"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"QETqrunVmKtb3o75W87zShH4EEP/PL1ARZew29BeSvY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:37:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "w88ubxbk1e"
+        },
+        {
+          "Name": "label",
+          "Value": "images/dügün-dernek.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-QETqrunVmKtb3o75W87zShH4EEP/PL1ARZew29BeSvY="
+        }
+      ]
+    },
+    {
+      "Route": "images/gucci.apkwvewif8.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\gucci.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zifofUkVvc1y0pGekDoli23Bx2o+kkG6bEo4n1+EZsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:42:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "apkwvewif8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/gucci.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-zifofUkVvc1y0pGekDoli23Bx2o+kkG6bEo4n1+EZsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/gucci.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\gucci.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10091"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"zifofUkVvc1y0pGekDoli23Bx2o+kkG6bEo4n1+EZsQ=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:42:23 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-zifofUkVvc1y0pGekDoli23Bx2o+kkG6bEo4n1+EZsQ="
+        }
+      ]
+    },
+    {
+      "Route": "images/harder-looks.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\harder-looks.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrhTu9/8Xl4Kmu7v/SdeqXbHQTYv5gSAb0yI8V2L+v8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrhTu9/8Xl4Kmu7v/SdeqXbHQTYv5gSAb0yI8V2L+v8="
+        }
+      ]
+    },
+    {
+      "Route": "images/harder-looks.u88c8f2hat.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\harder-looks.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7228"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"vrhTu9/8Xl4Kmu7v/SdeqXbHQTYv5gSAb0yI8V2L+v8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:39:54 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "u88c8f2hat"
+        },
+        {
+          "Name": "label",
+          "Value": "images/harder-looks.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-vrhTu9/8Xl4Kmu7v/SdeqXbHQTYv5gSAb0yI8V2L+v8="
+        }
+      ]
+    },
+    {
+      "Route": "images/hobbit.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\hobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:31:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk="
+        }
+      ]
+    },
+    {
+      "Route": "images/hobbit.k4omopqgxd.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\hobbit.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "285617"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:31:02 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "k4omopqgxd"
+        },
+        {
+          "Name": "label",
+          "Value": "images/hobbit.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk="
+        }
+      ]
+    },
+    {
+      "Route": "images/oppenheimer.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\oppenheimer.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "295469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9n89JAK52n7o/ik41H4FyV8RDD3ohde/Oy8+zRDkEb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9n89JAK52n7o/ik41H4FyV8RDD3ohde/Oy8+zRDkEb4="
+        }
+      ]
+    },
+    {
+      "Route": "images/oppenheimer.mhpgjiysh8.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\oppenheimer.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "295469"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9n89JAK52n7o/ik41H4FyV8RDD3ohde/Oy8+zRDkEb4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:34 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "mhpgjiysh8"
+        },
+        {
+          "Name": "label",
+          "Value": "images/oppenheimer.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9n89JAK52n7o/ik41H4FyV8RDD3ohde/Oy8+zRDkEb4="
+        }
+      ]
+    },
+    {
+      "Route": "images/prens.21mx64fwvy.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\prens.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjPNDZZ8Fqwq7xHmhQFnecpvQigO7vhxt+4AY7q/QLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:43:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "21mx64fwvy"
+        },
+        {
+          "Name": "label",
+          "Value": "images/prens.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjPNDZZ8Fqwq7xHmhQFnecpvQigO7vhxt+4AY7q/QLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/prens.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\prens.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "8993"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"xjPNDZZ8Fqwq7xHmhQFnecpvQigO7vhxt+4AY7q/QLg=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:43:26 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-xjPNDZZ8Fqwq7xHmhQFnecpvQigO7vhxt+4AY7q/QLg="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-one.3q76n30smh.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\red-one.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m89KK3CCkpwMgLxlc7ctvTmSBgHUf1ArOTPwb0jKpRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:39:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "3q76n30smh"
+        },
+        {
+          "Name": "label",
+          "Value": "images/red-one.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-m89KK3CCkpwMgLxlc7ctvTmSBgHUf1ArOTPwb0jKpRM="
+        }
+      ]
+    },
+    {
+      "Route": "images/red-one.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\red-one.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "266696"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"m89KK3CCkpwMgLxlc7ctvTmSBgHUf1ArOTPwb0jKpRM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:39:38 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-m89KK3CCkpwMgLxlc7ctvTmSBgHUf1ArOTPwb0jKpRM="
+        }
+      ]
+    },
+    {
+      "Route": "images/sahsiyet.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sahsiyet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtDafdpF24kkc6/foEj+0aS0FKsA0ihRfxhnunOXC2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:41:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtDafdpF24kkc6/foEj+0aS0FKsA0ihRfxhnunOXC2U="
+        }
+      ]
+    },
+    {
+      "Route": "images/sahsiyet.y0jwgmszbz.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sahsiyet.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "188501"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"UtDafdpF24kkc6/foEj+0aS0FKsA0ihRfxhnunOXC2U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:41:13 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "y0jwgmszbz"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sahsiyet.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-UtDafdpF24kkc6/foEj+0aS0FKsA0ihRfxhnunOXC2U="
+        }
+      ]
+    },
+    {
+      "Route": "images/sezginin-kanatları.86ntgqzgji.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sezginin-kanatları.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAKiqJU2B/J/TZ3AdM5kE9YQH5Cq2lhjYf6PDb93oZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "86ntgqzgji"
+        },
+        {
+          "Name": "label",
+          "Value": "images/sezginin-kanatları.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAKiqJU2B/J/TZ3AdM5kE9YQH5Cq2lhjYf6PDb93oZM="
+        }
+      ]
+    },
+    {
+      "Route": "images/sezginin-kanatları.jpg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\sezginin-kanatları.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "31353"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"kAKiqJU2B/J/TZ3AdM5kE9YQH5Cq2lhjYf6PDb93oZM=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:40:47 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-kAKiqJU2B/J/TZ3AdM5kE9YQH5Cq2lhjYf6PDb93oZM="
+        }
+      ]
+    },
+    {
+      "Route": "images/soylent-green.ja61kzyvg3.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\soylent-green.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7abQKx9jdYWgzjRzcEgDVn7OflRnyZUmbiBfAapPlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:42:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ja61kzyvg3"
+        },
+        {
+          "Name": "label",
+          "Value": "images/soylent-green.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7abQKx9jdYWgzjRzcEgDVn7OflRnyZUmbiBfAapPlI="
+        }
+      ]
+    },
+    {
+      "Route": "images/soylent-green.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\soylent-green.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "6848"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"G7abQKx9jdYWgzjRzcEgDVn7OflRnyZUmbiBfAapPlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:42:00 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-G7abQKx9jdYWgzjRzcEgDVn7OflRnyZUmbiBfAapPlI="
+        }
+      ]
+    },
+    {
+      "Route": "images/starwors.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\starwors.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUdCXGtzep5sEhil63xL09VtFXw07xhUJR//8pQYLTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUdCXGtzep5sEhil63xL09VtFXw07xhUJR//8pQYLTE="
+        }
+      ]
+    },
+    {
+      "Route": "images/starwors.tfomm3eqpg.jpeg",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\starwors.jpeg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "10263"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OUdCXGtzep5sEhil63xL09VtFXw07xhUJR//8pQYLTE=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 27 Dec 2024 22:28:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "tfomm3eqpg"
+        },
+        {
+          "Name": "label",
+          "Value": "images/starwors.jpeg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OUdCXGtzep5sEhil63xL09VtFXw07xhUJR//8pQYLTE="
         }
       ]
     },

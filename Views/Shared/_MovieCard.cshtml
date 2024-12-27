@@ -1,0 +1,48 @@
+
+@model List<WatchMe.Models.Movie>
+
+
+<div class="movie-grid">
+    @foreach (var movie in Model)
+    {
+        <div class="movie-card">
+            <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" alt="@movie.Title" class="movie-poster" />
+            <div class="movie-info">
+                <h3>@movie.Title</h3>
+                <p>Popularity: @movie.Popularity?.ToString("0.0")</p>
+                <p>Release Date: @movie.ReleaseDate?.ToString("yyyy-MM-dd")</p>
+            </div>
+        </div>
+    }
+</div>
+
+<style>
+    .movie-grid {
+        display: grid;
+    grid-template-columns: repeat(6, 1fr); /* 6 sütun */
+    gap: 15px;
+    padding: 20px 50px;
+    }
+    .movie-card {
+    height: 360px !important; /* Daha dikey bir görünüm için yüksekliği artırdık */
+    background-color: #333;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Yumuşak geçişler */
+    }
+    .movie-card:hover {
+        transform: scale(1.2);
+         box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.4);
+    z-index: 1; /* Öne çıkma */
+    }
+    .movie-poster {
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .movie-info {
+        padding: 15px;
+    }
+</style>
