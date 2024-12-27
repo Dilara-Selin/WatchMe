@@ -4,6 +4,8 @@ using System.Security.Cryptography;
 using System.Text;
 using System.ComponentModel.DataAnnotations.Schema;
 
+namespace WatchMe.Models
+{
 public class User
 {
     public int UserId { get; set; }
@@ -188,4 +190,5 @@ public class TVShowWatchList
 
     public int UserId { get; set; }
     public User User { get; set; } = null!;
+}
 }

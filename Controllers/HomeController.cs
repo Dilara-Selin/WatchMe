@@ -1,35 +1,38 @@
 using Microsoft.AspNetCore.Mvc;
 using WatchMe.Models;
-using System.Diagnostics;
 using WatchMe.Data;
 using Microsoft.EntityFrameworkCore;
+using System.Diagnostics;
 
 namespace WatchMe.Controllers
 {
     public class HomeController : Controller
     {
+        private readonly AppDbContext _context;
+
+        public HomeController(AppDbContext context)
+        {
+            _context = context;
+        }
+
         public IActionResult Privacy()
         {
-                ViewData["ShowHeaderFooter"] = true;
+            ViewData["ShowHeaderFooter"] = true;
             return View();
         }
-         [HttpGet("LoginSuccess")]
-    public IActionResult LoginSuccess()
-    {
-        return View();  // Returns the LoginSuccess.cshtml view
-    }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        [HttpGet("LoginSuccess")]
+        public IActionResult LoginSuccess()
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            return View(); // LoginSuccess.cshtml
         }
 
         public IActionResult Index()
         {
-                ViewData["ShowHeaderFooter"] = true;
-            return View();
+            var allMovies = _context.Movies.ToList(); // Tüm filmleri getir
+            return View(allMovies); // View'a gönder
         }
+
         public IActionResult WelcomePage()
         {
             ViewData["ShowHeaderFooter"] = false;
@@ -55,15 +58,31 @@ namespace WatchMe.Controllers
         }
 
         public IActionResult Profile()
-    {
+        {
             ViewData["ShowHeaderFooter"] = true;
-        return View();
-    }
+            return View();
+        }
 
-    public IActionResult Netflix()
-    {
-            ViewData["ShowHeaderFooter"] = true;
-        return View();
-    }
+        public IActionResult Netflix()
+        {
+            var allMovies = _context.Movies.ToList();
+            return View(allMovies);
+        }
+
+        // Türlere göre film göster
+        public async Task<IActionResult> MoviesByGenre(int genreId)
+        {
+            var genre = await _context.Genres
+                .Include(g => g.MovieGenres!)
+                .ThenInclude(mg => mg.Movie)
+                .FirstOrDefaultAsync(g => g.GenreId == genreId);
+
+            if (genre == null)
+            {
+                return NotFound();
+            }
+
+            return View(genre);
+        }
     }
 }

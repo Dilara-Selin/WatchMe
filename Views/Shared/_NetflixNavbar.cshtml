@@ -16,7 +16,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="seriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Diziler
                     </a>
-                    <ul class="dropdown-menu " aria-labelledby="seriesDropdown">
+                    <ul class="dropdown-menu" aria-labelledby="seriesDropdown">
                         <li><a class="dropdown-item" href="#">Aksiyon</a></li>
                         <li><a class="dropdown-item" href="#">Komedi</a></li>
                         <li><a class="dropdown-item" href="#">Drama</a></li>
@@ -28,7 +28,7 @@
                     <a class="nav-link dropdown-toggle" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Filmler
                     </a>
-                    <ul class="dropdown-menu " aria-labelledby="moviesDropdown">
+                    <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
                         <li><a class="dropdown-item" href="#">Aksiyon</a></li>
                         <li><a class="dropdown-item" href="#">Bilim Kurgu</a></li>
                         <li><a class="dropdown-item" href="#">Romantik</a></li>
@@ -38,36 +38,54 @@
                 <li class="nav-item">
                     <a class="nav-link" href="/Home/Netflix">Yeni ve Popüler</a>
                 </li>
-               
-                <li class="nav-item">
-                    <a class="nav-link" asp-controller="Profile" asp-action="Profile">Profil</a>
-                </li>
             </ul>
-            
-            <form class="d-flex ms-auto position-relative" role="search">
-                <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 20px;">
-                <button class="btn position-absolute end-0 me-2" type="submit" style="background: none; border: none;">
-                    <i class="fas fa-search text-success"></i>
-                </button>
-            </form>
 
+            <!-- Arama ve Profil Butonları -->
+            <div class="d-flex ms-auto position-relative">
+                <!-- Arama alanı -->
+                <form class="d-flex position-relative" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 20px;">
+                    <button class="btn position-absolute end-0 me-2" type="submit" style="background: none; border: none;">
+                        <i class="fas fa-search text-success"></i>
+                    </button>
+                </form>
+                <!-- Profil simgesi -->
+                <a class="nav-link ms-3" href="/Profile/Profile">
+                    <i class="fas fa-user"></i>
+                </a>
+            </div>
         </div>
     </div>
 </nav>
 
+
 <style>
-   
-    input:focus {
-        background-color: rgba(255, 255, 255, 0.9) !important;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
-    }
-    /* Hover ile açılır menü */
+input:focus {
+    background-color: rgba(255, 255, 255, 0.9) !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Hover ile açılır menü */
 .nav-item.dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0; /* Animasyonsuz açılma */
     padding: 0;
     border-radius: 20px;
- 
+}
+
+/* Profil simgesini hizalamak */
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+/* Profil simgesine tıklanabilir alan ekleyelim */
+.nav-link i {
+    font-size: 20px;
+    margin-left: 10px;
+    color: white; /* Simgeleri beyaz yapalım */
+     margin-right: 10px;
+
 }
 
 

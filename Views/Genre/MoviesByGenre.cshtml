@@ -1,0 +1,83 @@
+@model WatchMe.Models.Genre
+
+<h2>@Model.Name Genre</h2>
+
+<div class="movies-scroll-container">
+    @if (Model.MovieGenres != null)
+    {
+        foreach (var movieGenre in Model.MovieGenres)
+        {
+            if (movieGenre.Movie != null)
+            {
+                var movie = movieGenre.Movie;
+                <div class="movie-card">
+                    <a href="@Url.Action("Details", "Movie", new { id = movie.MovieId })">
+                        <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? ""}")" alt="@movie.Title" class="movie-image" />
+                        <h3>@(movie.Title ?? "Untitled")</h3>
+                    </a>
+                </div>
+            }
+        }
+    }
+    else
+    {
+        <p>No movies available for this genre.</p>
+    }
+</div>
+
+<style>
+    .movies-scroll-container {
+        display: flex;
+        gap: 15px;
+        overflow-x: auto;
+        padding: 20px;
+        white-space: nowrap;
+        scrollbar-width: thin; /* Firefox */
+        -ms-overflow-style: none;  /* IE and Edge */
+    }
+
+    .movies-scroll-container::-webkit-scrollbar {
+        height: 8px;
+    }
+
+    .movies-scroll-container::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 4px;
+    }
+
+    .movies-scroll-container::-webkit-scrollbar-thumb:hover {
+        background: #555;
+    }
+
+    .movie-card {
+        display: inline-block;
+        width: 150px;
+        text-align: center;
+        flex-shrink: 0;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .movie-card:hover {
+        transform: scale(1.1);
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+    }
+
+    .movie-image {
+        width: 100%;
+        border-radius: 10px;
+        transition: box-shadow 0.3s ease;
+    }
+
+    .movie-image:hover {
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 1rem;
+        color: #333;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        overflow: hidden;
+    }
+</style>

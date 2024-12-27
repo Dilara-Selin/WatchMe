@@ -1,33 +1,44 @@
+@model List<WatchMe.Models.Movie>
+@inject WatchMe.Data.AppDbContext _context;
 
+@{
+    var movies = _context.Movies
+        .OrderBy(x => Guid.NewGuid())
+        .Take(6)
+        .ToList();
+}
+
+@if (Model == null || !Model.Any())
+{
+    <p>No movies available to display.</p>
+}
+else
+{
     <div class="category-items">
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Drama">
-               <div class="rating">9.0</div>
-        </div>
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Comedy">
-               <div class="rating">9.0</div>
-        </div>
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Action">
-               <div class="rating">9.0</div>
-        </div>
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Sci-Fi">
-               <div class="rating">9.0</div>
-        </div>
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Horror">
-               <div class="rating">9.0</div>
-        </div>
-        <div class="category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Romance">
-               <div class="rating">9.0</div>
-        </div>
+        @foreach (var movie in movies)
+        {
+            <div class="category-item">
+                <!-- Resim -->
+                <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" class="movie-poster"
+                     alt="@movie.Title" />
+
+                <!-- Puanlama -->
+                <div class="rating">
+                    @movie.Popularity?.ToString("0.0")
+                </div>
+            </div>
+        }
     </div>
+}
+ 
+ 
+ <style>
+    .movie-poster {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
-
-<style>
     .category-items {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 sütun */
@@ -36,7 +47,7 @@
 }
 
 .category-item {
-    height: 300px; /* Daha dikey bir görünüm için yüksekliği artırdık */
+    height: 400px; /* Daha dikey bir görünüm için yüksekliği artırdık */
     background-color: #333;
     border-radius: 25px;
     overflow: hidden;
@@ -71,10 +82,6 @@
     z-index: 1; /* Öne çıkma */
 }
 
-/* Resmin üzerine gelindiğinde, resim biraz büyür */
-.category-item:hover img {
-    transform: scale(1.2); /* Resmin büyümesi */
-}
     /* Sol alt köşede puan */
     .rating {
         position: absolute;
