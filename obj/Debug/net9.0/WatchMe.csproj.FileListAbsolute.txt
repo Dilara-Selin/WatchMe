@@ -564,8 +564,6 @@ C:\src\WatchMe\obj\Debug\net9.0\compressed\bhdyw05gpg-jjsuc0puko.gz
 C:\src\WatchMe\obj\Debug\net9.0\compressed\5tntaof660-9vr69e8ynj.gz
 C:\src\WatchMe\obj\Debug\net9.0\compressed\3r9aklemlt-87fc7y1x7t.gz
 C:\src\WatchMe\obj\Debug\net9.0\compressed\j7nywdi7ub-mlv21k5csn.gz
-C:\src\WatchMe\obj\Debug\net9.0\compressed\vwvs8oxb7g-3qcibn6zpz.gz
-C:\src\WatchMe\obj\Debug\net9.0\compressed\c4cacbw3gw-3qcibn6zpz.gz
 C:\src\WatchMe\obj\Debug\net9.0\staticwebassets.build.json
 C:\src\WatchMe\obj\Debug\net9.0\staticwebassets.development.json
 C:\src\WatchMe\obj\Debug\net9.0\staticwebassets.build.endpoints.json
@@ -778,3 +776,5 @@ C:\Users\gzltm\OneDrive\Masaustu\WatchMe\obj\Debug\net9.0\WatchMe.genruntimeconf
 C:\Users\gzltm\OneDrive\Masaustu\WatchMe\obj\Debug\net9.0\ref\WatchMe.dll
 C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\compressed\vwvs8oxb7g-l52qegovq0.gz
 C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\compressed\c4cacbw3gw-l52qegovq0.gz
+C:\src\WatchMe\obj\Debug\net9.0\compressed\vwvs8oxb7g-l52qegovq0.gz
+C:\src\WatchMe\obj\Debug\net9.0\compressed\c4cacbw3gw-l52qegovq0.gz
