@@ -2,6 +2,7 @@ using Microsoft.AspNetCore.Mvc;
 using WatchMe.Data;
 using WatchMe.Models;
 using System.Linq;
+using Microsoft.EntityFrameworkCore;
 
 namespace WatchMe.Controllers
 {
