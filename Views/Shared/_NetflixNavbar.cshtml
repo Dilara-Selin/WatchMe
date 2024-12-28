@@ -24,17 +24,19 @@
                     </ul>
                 </li>
                 <!-- Filmler için Dropdown -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Filmler
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
-                        <li><a class="dropdown-item" href="#">Aksiyon</a></li>
-                        <li><a class="dropdown-item" href="#">Bilim Kurgu</a></li>
-                        <li><a class="dropdown-item" href="#">Romantik</a></li>
-                        <li><a class="dropdown-item" href="#">Korku</a></li>
-                    </ul>
-                </li>
+<li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Filmler
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="moviesDropdown">
+        <li><a class="dropdown-item" href="@Url.Action("MoviesByGenre", "Genre", new { genreId = 28 })">Aksiyon</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("MoviesByGenre", "Genre", new { genreId = 35 })">Komedi</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("MoviesByGenre", "Genre", new { genreId = 27 })">Horror</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("MoviesByGenre", "Genre", new { genreId = 10749 })">Romance</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("MoviesByGenre", "Genre", new { genreId = 878 })">Science Fiction</a></li>
+    </ul>
+</li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="/Home/Netflix">Yeni ve Popüler</a>
                 </li>

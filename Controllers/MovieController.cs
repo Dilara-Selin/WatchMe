@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WatchMe.Data;
 using WatchMe.Models;
+using System.Linq;
 
 namespace WatchMe.Controllers
 {
@@ -15,15 +15,19 @@ namespace WatchMe.Controllers
         }
         
 
-        // Movie Detail
-        public async Task<IActionResult> Details(int id)
+        // Filmleri listele
+        public IActionResult Index()
         {
-            var movie = await _context.Movies
-                .Include(m => m.MovieGenres!)
-                .ThenInclude(mg => mg.Genre)
-                .Include(m => m.MovieComments!)
-                .ThenInclude(mc => mc.User)
-                .FirstOrDefaultAsync(m => m.MovieId == id);
+            var movies = _context.Movies.ToList();
+            return View(movies);
+        }
+
+        // Film detay sayfası
+        public IActionResult Details(int id)
+        {
+            var movie = _context.Movies
+                .Where(m => m.MovieId == id)
+                .FirstOrDefault();
 
             if (movie == null)
             {

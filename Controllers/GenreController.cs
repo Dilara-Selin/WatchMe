@@ -1,41 +1,35 @@
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using WatchMe.Data;
 using WatchMe.Models;
+using System.Linq;
 
 namespace WatchMe.Controllers
 {
     public class GenreController : Controller
-{
-    private readonly AppDbContext _context;
-
-    public GenreController(AppDbContext context)
     {
-        _context = context;
-    }
+        private readonly AppDbContext _context;
 
-    // Genre sayfasını render et
-    public async Task<IActionResult> MoviesByGenre(int genreId)
-    {
-        var genre = await _context.Genres
-            .Include(g => g.MovieGenres!)
-            .ThenInclude(mg => mg.Movie)
-            .FirstOrDefaultAsync(g => g.GenreId == genreId);
-
-        if (genre == null)
+        public GenreController(AppDbContext context)
         {
-            return NotFound();
+            _context = context;
         }
 
-        return View(genre);  // Genre'ya ait filmleri gösteren view
-    }
+        // GenreId'ye göre filmleri listele
+        public IActionResult MoviesByGenre(int genreId)
+        {
+            var movies = _context.Movies
+                .Where(m => m.MovieGenres.Any(mg => mg.GenreId == genreId))  // GenreId'ye göre filtreleme
+                .ToList();
 
-    // Kullanıcının bir tür seçmesini sağlayacak sayfa
-    public async Task<IActionResult> SelectGenre()
-    {
-        var genres = await _context.Genres.ToListAsync();
-        return View(genres);  // Tüm genre'leri gösteren view
-    }
-}
+            // Türün adını View'a gönderebiliriz
+            var genreName = _context.Genres
+                .Where(g => g.GenreId == genreId)
+                .Select(g => g.Name)
+                .FirstOrDefault();
 
+            ViewData["GenreName"] = genreName;
+
+            return View(movies);  // MoviesByGenre view'ını döndürüyoruz
+        }
+    }
 }
