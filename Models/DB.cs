@@ -14,6 +14,8 @@ public class User
 
     // Password, hash'lenmiş haliyle veritabanında saklanacak
     public required string Password { get; set; }
+    public string? ResetToken { get; set; } // Token nullable olabilir
+    public DateTime? ResetTokenExpiry { get; set; } // Token geçerlilik süresi
 
     // Şifreyi doğrulamak için kullanılan metot
     public bool VerifyPassword(string enteredPassword)

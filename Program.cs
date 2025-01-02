@@ -1,37 +1,53 @@
 using Microsoft.EntityFrameworkCore;
 using WatchMe.Data;
+using WatchMe.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+// Loglama seviyesini ayarla
+builder.Logging.ClearProviders();
+builder.Logging.AddConsole();
+builder.Logging.AddDebug();
+
 // Add services to the container
+<<<<<<< Updated upstream
 builder.Services.AddControllersWithViews()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
     });
-
-// Configure DbContext with PostgreSQL
+=======
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))); 
 
-// Configure CORS
+builder.Services.AddScoped<EmailService>(); 
+builder.Services.AddScoped<ResetPasswordService>(); 
+builder.Services.AddControllersWithViews();
+>>>>>>> Stashed changes
+
 builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Frontend'in URL'si
+        policy.WithOrigins("http://localhost:3000") // Your frontend URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
 });
 
+<<<<<<< Updated upstream
 builder.Services.AddScoped<MovieService>();
 // Add Authorization
+=======
+
+
+
+
+>>>>>>> Stashed changes
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline
 if (!app.Environment.IsDevelopment())
 {
     app.UseExceptionHandler("/Home/Error");
@@ -40,16 +56,28 @@ if (!app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
-
 app.UseRouting();
-
-// Use CORS policy
+app.UseDefaultFiles();
+app.UseStaticFiles();
 app.UseCors("AllowFrontend");
-
 app.UseAuthorization();
 
+
+
+
+// Single MapControllerRoute definition
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=WelcomePage}/{id?}");
 
+app.MapControllerRoute(
+    name: "reset-password",
+    pattern: "api/auth/reset-password",
+    defaults: new { controller = "Auth", action = "ResetPassword" });
+
+    app.Use(async (context, next) =>
+{
+    Console.WriteLine($"Request URL: {context.Request.Path}");
+    await next();
+});
 app.Run();
