@@ -4,7 +4,11 @@ using WatchMe.Data;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container
-builder.Services.AddControllersWithViews();
+builder.Services.AddControllersWithViews()
+    .AddJsonOptions(options =>
+    {
+        options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
+    });
 
 // Configure DbContext with PostgreSQL
 builder.Services.AddDbContext<AppDbContext>(options =>
@@ -21,6 +25,7 @@ builder.Services.AddCors(options =>
     });
 });
 
+builder.Services.AddScoped<MovieService>();
 // Add Authorization
 builder.Services.AddAuthorization();
 

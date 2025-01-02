@@ -1,11 +1,4 @@
 @model List<WatchMe.Models.Movie>
-@inject WatchMe.Data.AppDbContext _context;
-
-@{
-    var movies = _context.Movies
-        .OrderBy(x => Guid.NewGuid())
-        .ToList();
-}
 
 @if (Model == null || !Model.Any())
 {
@@ -14,23 +7,25 @@
 else
 {
     <div class="category-items">
-        @foreach (var movie in movies)
+        @foreach (var movie in Model)
         {
-            <div class="category-item">
-                <!-- Resim -->
-                <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" class="movie-poster"
-                     alt="@movie.Title" />
+            <a href="@Url.Action("Details", "Movie", new { id = movie.MovieId })" class="category-item-link">
+                <div class="category-item">
+                    <!-- Resim -->
+                    <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath}")" 
+                         class="movie-poster" 
+                         alt="@movie.Title" />
 
-                <!-- Puanlama -->
-                <div class="rating">
-                    @movie.Popularity?.ToString("0.0")
+                    <!-- Puanlama -->
+                    <div class="rating">
+                        @movie.Popularity?.ToString("0.0")
+                    </div>
                 </div>
-            </div>
+            </a>
         }
     </div>
 }
- 
- 
+
  <style>
     .movie-poster {
     width: 100%;

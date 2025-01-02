@@ -69,20 +69,5 @@ namespace WatchMe.Controllers
             return View(allMovies);
         }
 
-        // Türlere göre film göster
-        public async Task<IActionResult> MoviesByGenre(int genreId)
-        {
-            var genre = await _context.Genres
-                .Include(g => g.MovieGenres!)
-                .ThenInclude(mg => mg.Movie)
-                .FirstOrDefaultAsync(g => g.GenreId == genreId);
-
-            if (genre == null)
-            {
-                return NotFound();
-            }
-
-            return View(genre);
-        }
     }
 }
