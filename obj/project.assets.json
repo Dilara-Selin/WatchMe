@@ -1903,6 +1903,61 @@
           }
         }
       },
+      "System.ServiceModel.Http/8.1.1": {
+        "type": "package",
+        "dependencies": {
+          "System.ServiceModel.Primitives": "8.1.1"
+        },
+        "compile": {
+          "ref/net8.0/System.ServiceModel.Http.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/System.ServiceModel.Http.dll": {
+            "related": ".pdb"
+          }
+        },
+        "resource": {
+          "lib/net8.0/cs/System.ServiceModel.Http.resources.dll": {
+            "locale": "cs"
+          },
+          "lib/net8.0/de/System.ServiceModel.Http.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net8.0/es/System.ServiceModel.Http.resources.dll": {
+            "locale": "es"
+          },
+          "lib/net8.0/fr/System.ServiceModel.Http.resources.dll": {
+            "locale": "fr"
+          },
+          "lib/net8.0/it/System.ServiceModel.Http.resources.dll": {
+            "locale": "it"
+          },
+          "lib/net8.0/ja/System.ServiceModel.Http.resources.dll": {
+            "locale": "ja"
+          },
+          "lib/net8.0/ko/System.ServiceModel.Http.resources.dll": {
+            "locale": "ko"
+          },
+          "lib/net8.0/pl/System.ServiceModel.Http.resources.dll": {
+            "locale": "pl"
+          },
+          "lib/net8.0/pt-BR/System.ServiceModel.Http.resources.dll": {
+            "locale": "pt-BR"
+          },
+          "lib/net8.0/ru/System.ServiceModel.Http.resources.dll": {
+            "locale": "ru"
+          },
+          "lib/net8.0/tr/System.ServiceModel.Http.resources.dll": {
+            "locale": "tr"
+          },
+          "lib/net8.0/zh-Hans/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hans"
+          },
+          "lib/net8.0/zh-Hant/System.ServiceModel.Http.resources.dll": {
+            "locale": "zh-Hant"
+          }
+        }
+      },
       "System.ServiceModel.Primitives/8.1.1": {
         "type": "package",
         "dependencies": {
@@ -5563,6 +5618,50 @@
         "version.txt"
       ]
     },
+    "System.ServiceModel.Http/8.1.1": {
+      "sha512": "OArC2JVvd4bOzWaBBcEy6RnLdeH+DaOJ5wzbZc5DpSSpwMmgADIEkP6bDjJEVfGVuNjlgvI08GsRpSO6Q+9Jmg==",
+      "type": "package",
+      "path": "system.servicemodel.http/8.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "README.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.ServiceModel.Http.dll",
+        "lib/net462/System.ServiceModel.Http.pdb",
+        "lib/net8.0/System.ServiceModel.Http.dll",
+        "lib/net8.0/System.ServiceModel.Http.pdb",
+        "lib/net8.0/cs/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/de/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/es/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/fr/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/it/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ja/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ko/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/pl/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/pt-BR/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/ru/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/tr/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/zh-Hans/System.ServiceModel.Http.resources.dll",
+        "lib/net8.0/zh-Hant/System.ServiceModel.Http.resources.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.dll",
+        "lib/netstandard2.0/System.ServiceModel.Http.pdb",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/net462/System.ServiceModel.Http.dll",
+        "ref/net8.0/System.ServiceModel.Http.dll",
+        "ref/netcoreapp2.0/_._",
+        "ref/netstandard2.0/System.ServiceModel.Http.dll",
+        "system.servicemodel.http.8.1.1.nupkg.sha512",
+        "system.servicemodel.http.nuspec"
+      ]
+    },
     "System.ServiceModel.Primitives/8.1.1": {
       "sha512": "v+jwURtpzg1eI5RDARP9AAQg5GmtNu6rWAOVTauL74cB8jcuP6DB8PVpz1IPTRavX6qlFAKkS+X+9QR5S84QyA==",
       "type": "package",
@@ -5926,41 +6025,24 @@
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.0",
       "Npgsql.EntityFrameworkCore.PostgreSQL >= 9.0.2",
       "Swashbuckle.AspNetCore >= 7.2.0",
+      "System.ServiceModel.Http >= 8.1.1",
       "System.ServiceModel.Primitives >= 8.1.1"
     ]
   },
   "packageFolders": {
-<<<<<<< Updated upstream
-    "C:\\Users\\aysub\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
-=======
     "/Users/dilaraselin/.nuget/packages/": {}
->>>>>>> Stashed changes
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< Updated upstream
-      "projectUniqueName": "C:\\src\\WatchMe\\WatchMe.csproj",
-      "projectName": "WatchMe",
-      "projectPath": "C:\\src\\WatchMe\\WatchMe.csproj",
-      "packagesPath": "C:\\Users\\aysub\\.nuget\\packages\\",
-      "outputPath": "C:\\src\\WatchMe\\obj\\",
-=======
       "projectUniqueName": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
       "projectName": "WatchMe",
       "projectPath": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
       "packagesPath": "/Users/dilaraselin/.nuget/packages/",
       "outputPath": "/Users/dilaraselin/Desktop/WatchMe/obj/",
->>>>>>> Stashed changes
       "projectStyle": "PackageReference",
       "configFilePaths": [
-<<<<<<< Updated upstream
-        "C:\\Users\\aysub\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
-=======
         "/Users/dilaraselin/.nuget/NuGet/NuGet.Config"
->>>>>>> Stashed changes
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -6025,6 +6107,10 @@
           "Swashbuckle.AspNetCore": {
             "target": "Package",
             "version": "[7.2.0, )"
+          },
+          "System.ServiceModel.Http": {
+            "target": "Package",
+            "version": "[8.1.1, )"
           },
           "System.ServiceModel.Primitives": {
             "target": "Package",

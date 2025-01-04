@@ -91,8 +91,6 @@ namespace WatchMe.Controllers
             return View(allMovies);
         }
 
-<<<<<<< Updated upstream
-=======
         // Display movies by genre
         public async Task<IActionResult> MoviesByGenre(int genreId)
         {
@@ -108,6 +106,5 @@ namespace WatchMe.Controllers
 
             return View(genre); // Pass genre data to the view
         }
->>>>>>> Stashed changes
     }
 }

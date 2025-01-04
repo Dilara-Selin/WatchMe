@@ -1,19 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< Updated upstream
-    "C:\\src\\WatchMe\\WatchMe.csproj": {}
-  },
-  "projects": {
-    "C:\\src\\WatchMe\\WatchMe.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "C:\\src\\WatchMe\\WatchMe.csproj",
-        "projectName": "WatchMe",
-        "projectPath": "C:\\src\\WatchMe\\WatchMe.csproj",
-        "packagesPath": "C:\\Users\\aysub\\.nuget\\packages\\",
-        "outputPath": "C:\\src\\WatchMe\\obj\\",
-=======
     "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj": {}
   },
   "projects": {
@@ -25,15 +12,9 @@
         "projectPath": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
         "packagesPath": "/Users/dilaraselin/.nuget/packages/",
         "outputPath": "/Users/dilaraselin/Desktop/WatchMe/obj/",
->>>>>>> Stashed changes
         "projectStyle": "PackageReference",
         "configFilePaths": [
-<<<<<<< Updated upstream
-          "C:\\Users\\aysub\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
-=======
           "/Users/dilaraselin/.nuget/NuGet/NuGet.Config"
->>>>>>> Stashed changes
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -98,6 +79,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[7.2.0, )"
+            },
+            "System.ServiceModel.Http": {
+              "target": "Package",
+              "version": "[8.1.1, )"
             },
             "System.ServiceModel.Primitives": {
               "target": "Package",

@@ -187,5 +187,8 @@ namespace WatchMe.Data
                 .WithMany(u => u.TVShowWatchLists)
                 .HasForeignKey(tsw => tsw.UserId);
         }
+
+      
+      
     }
 }
