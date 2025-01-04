@@ -6030,24 +6030,31 @@
     ]
   },
   "packageFolders": {
-    "/Users/dilaraselin/.nuget/packages/": {}
+    "C:\\Users\\gzltm\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
+      "projectUniqueName": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
       "projectName": "WatchMe",
-      "projectPath": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
-      "packagesPath": "/Users/dilaraselin/.nuget/packages/",
-      "outputPath": "/Users/dilaraselin/Desktop/WatchMe/obj/",
+      "projectPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
+      "packagesPath": "C:\\Users\\gzltm\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/dilaraselin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\gzltm\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -6136,7 +6143,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
