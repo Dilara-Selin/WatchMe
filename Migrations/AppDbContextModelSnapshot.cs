@@ -22,7 +22,7 @@ namespace WatchMe.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
-            modelBuilder.Entity("Genre", b =>
+            modelBuilder.Entity("WatchMe.Models.Genre", b =>
                 {
                     b.Property<int>("GenreId")
                         .ValueGeneratedOnAdd()
@@ -41,7 +41,7 @@ namespace WatchMe.Migrations
                     b.ToTable("Genres");
                 });
 
-            modelBuilder.Entity("Movie", b =>
+            modelBuilder.Entity("WatchMe.Models.Movie", b =>
                 {
                     b.Property<int>("MovieId")
                         .ValueGeneratedOnAdd()
@@ -73,7 +73,7 @@ namespace WatchMe.Migrations
                     b.ToTable("Movies");
                 });
 
-            modelBuilder.Entity("MovieComment", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieComment", b =>
                 {
                     b.Property<int>("MovieCommentId")
                         .ValueGeneratedOnAdd()
@@ -100,7 +100,7 @@ namespace WatchMe.Migrations
                     b.ToTable("MovieComments");
                 });
 
-            modelBuilder.Entity("MovieDislike", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieDislike", b =>
                 {
                     b.Property<int>("MovieId")
                         .HasColumnType("integer");
@@ -118,7 +118,7 @@ namespace WatchMe.Migrations
                     b.ToTable("MovieDislikes");
                 });
 
-            modelBuilder.Entity("MovieGenre", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieGenre", b =>
                 {
                     b.Property<int>("MovieId")
                         .HasColumnType("integer");
@@ -133,7 +133,7 @@ namespace WatchMe.Migrations
                     b.ToTable("MovieGenres");
                 });
 
-            modelBuilder.Entity("MovieLike", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieLike", b =>
                 {
                     b.Property<int>("MovieId")
                         .HasColumnType("integer");
@@ -151,7 +151,7 @@ namespace WatchMe.Migrations
                     b.ToTable("MovieLikes");
                 });
 
-            modelBuilder.Entity("MovieWatchList", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieWatchList", b =>
                 {
                     b.Property<int>("MovieId")
                         .HasColumnType("integer");
@@ -169,7 +169,7 @@ namespace WatchMe.Migrations
                     b.ToTable("MovieWatchLists");
                 });
 
-            modelBuilder.Entity("TVShow", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShow", b =>
                 {
                     b.Property<int>("TVShowId")
                         .ValueGeneratedOnAdd()
@@ -200,7 +200,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShows");
                 });
 
-            modelBuilder.Entity("TVShowComment", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowComment", b =>
                 {
                     b.Property<int>("TVShowCommentId")
                         .ValueGeneratedOnAdd()
@@ -227,7 +227,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShowComments");
                 });
 
-            modelBuilder.Entity("TVShowDislike", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowDislike", b =>
                 {
                     b.Property<int>("TVShowId")
                         .HasColumnType("integer");
@@ -245,7 +245,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShowDislikes");
                 });
 
-            modelBuilder.Entity("TVShowGenre", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowGenre", b =>
                 {
                     b.Property<int>("TVShowId")
                         .HasColumnType("integer");
@@ -260,7 +260,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShowGenres");
                 });
 
-            modelBuilder.Entity("TVShowLike", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowLike", b =>
                 {
                     b.Property<int>("TVShowId")
                         .HasColumnType("integer");
@@ -278,7 +278,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShowLikes");
                 });
 
-            modelBuilder.Entity("TVShowWatchList", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowWatchList", b =>
                 {
                     b.Property<int>("TVShowId")
                         .HasColumnType("integer");
@@ -296,7 +296,7 @@ namespace WatchMe.Migrations
                     b.ToTable("TVShowWatchLists");
                 });
 
-            modelBuilder.Entity("User", b =>
+            modelBuilder.Entity("WatchMe.Models.User", b =>
                 {
                     b.Property<int>("UserId")
                         .ValueGeneratedOnAdd()
@@ -316,6 +316,12 @@ namespace WatchMe.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
+                    b.Property<string>("ResetToken")
+                        .HasColumnType("text");
+
+                    b.Property<DateTime?>("ResetTokenExpiry")
+                        .HasColumnType("timestamp with time zone");
+
                     b.HasKey("UserId");
 
                     b.HasIndex("Email")
@@ -324,15 +330,15 @@ namespace WatchMe.Migrations
                     b.ToTable("Users");
                 });
 
-            modelBuilder.Entity("MovieComment", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieComment", b =>
                 {
-                    b.HasOne("Movie", "Movie")
+                    b.HasOne("WatchMe.Models.Movie", "Movie")
                         .WithMany("MovieComments")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("MovieComments")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -343,15 +349,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("MovieDislike", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieDislike", b =>
                 {
-                    b.HasOne("Movie", "Movie")
+                    b.HasOne("WatchMe.Models.Movie", "Movie")
                         .WithMany("MovieDislikes")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("MovieDislikes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -362,15 +368,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("MovieGenre", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieGenre", b =>
                 {
-                    b.HasOne("Genre", "Genre")
+                    b.HasOne("WatchMe.Models.Genre", "Genre")
                         .WithMany("MovieGenres")
                         .HasForeignKey("GenreId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("Movie", "Movie")
+                    b.HasOne("WatchMe.Models.Movie", "Movie")
                         .WithMany("MovieGenres")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -381,15 +387,15 @@ namespace WatchMe.Migrations
                     b.Navigation("Movie");
                 });
 
-            modelBuilder.Entity("MovieLike", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieLike", b =>
                 {
-                    b.HasOne("Movie", "Movie")
+                    b.HasOne("WatchMe.Models.Movie", "Movie")
                         .WithMany("MovieLikes")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("MovieLikes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -400,15 +406,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("MovieWatchList", b =>
+            modelBuilder.Entity("WatchMe.Models.MovieWatchList", b =>
                 {
-                    b.HasOne("Movie", "Movie")
+                    b.HasOne("WatchMe.Models.Movie", "Movie")
                         .WithMany("MovieWatchLists")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("MovieWatchLists")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -419,15 +425,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TVShowComment", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowComment", b =>
                 {
-                    b.HasOne("TVShow", "TVShow")
+                    b.HasOne("WatchMe.Models.TVShow", "TVShow")
                         .WithMany("TVShowComments")
                         .HasForeignKey("TVShowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("TVShowComments")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -438,15 +444,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TVShowDislike", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowDislike", b =>
                 {
-                    b.HasOne("TVShow", "TVShow")
+                    b.HasOne("WatchMe.Models.TVShow", "TVShow")
                         .WithMany("TVShowDislikes")
                         .HasForeignKey("TVShowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("TVShowDislikes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -457,15 +463,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TVShowGenre", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowGenre", b =>
                 {
-                    b.HasOne("Genre", "Genre")
+                    b.HasOne("WatchMe.Models.Genre", "Genre")
                         .WithMany("TVShowGenres")
                         .HasForeignKey("GenreId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TVShow", "TVShow")
+                    b.HasOne("WatchMe.Models.TVShow", "TVShow")
                         .WithMany("TVShowGenres")
                         .HasForeignKey("TVShowId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -476,15 +482,15 @@ namespace WatchMe.Migrations
                     b.Navigation("TVShow");
                 });
 
-            modelBuilder.Entity("TVShowLike", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowLike", b =>
                 {
-                    b.HasOne("TVShow", "TVShow")
+                    b.HasOne("WatchMe.Models.TVShow", "TVShow")
                         .WithMany("TVShowLikes")
                         .HasForeignKey("TVShowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("TVShowLikes")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -495,15 +501,15 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("TVShowWatchList", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShowWatchList", b =>
                 {
-                    b.HasOne("TVShow", "TVShow")
+                    b.HasOne("WatchMe.Models.TVShow", "TVShow")
                         .WithMany("TVShowWatchLists")
                         .HasForeignKey("TVShowId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("User", "User")
+                    b.HasOne("WatchMe.Models.User", "User")
                         .WithMany("TVShowWatchLists")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -514,14 +520,14 @@ namespace WatchMe.Migrations
                     b.Navigation("User");
                 });
 
-            modelBuilder.Entity("Genre", b =>
+            modelBuilder.Entity("WatchMe.Models.Genre", b =>
                 {
                     b.Navigation("MovieGenres");
 
                     b.Navigation("TVShowGenres");
                 });
 
-            modelBuilder.Entity("Movie", b =>
+            modelBuilder.Entity("WatchMe.Models.Movie", b =>
                 {
                     b.Navigation("MovieComments");
 
@@ -534,7 +540,7 @@ namespace WatchMe.Migrations
                     b.Navigation("MovieWatchLists");
                 });
 
-            modelBuilder.Entity("TVShow", b =>
+            modelBuilder.Entity("WatchMe.Models.TVShow", b =>
                 {
                     b.Navigation("TVShowComments");
 
@@ -547,7 +553,7 @@ namespace WatchMe.Migrations
                     b.Navigation("TVShowWatchLists");
                 });
 
-            modelBuilder.Entity("User", b =>
+            modelBuilder.Entity("WatchMe.Models.User", b =>
                 {
                     b.Navigation("MovieComments");
 

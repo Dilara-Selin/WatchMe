@@ -1,0 +1,98 @@
+@model object
+@{
+    var movies = (List<WatchMe.Models.Movie>)ViewData["Movies"];
+    var tvShows = (List<WatchMe.Models.TVShow>)ViewData["TVShows"];
+    var searchTerm = ViewData["SearchTerm"]?.ToString();
+}
+
+<h1>Search Results for: @searchTerm</h1>
+
+<h2>Movies</h2>
+@if (movies == null || !movies.Any())
+{
+    <p>No movies available to display.</p>
+}
+else
+{
+    <div class="category-items">
+        @foreach (var movie in movies)
+        {
+            @await Html.PartialAsync("_MovieCard", new List<WatchMe.Models.Movie> { movie })
+        }
+    </div>
+}
+
+<h2>TV Shows</h2>
+@if (tvShows == null || !tvShows.Any())
+{
+    <p>No TV shows available to display.</p>
+}
+else
+{
+    <div class="category-items">
+        @foreach (var tvShow in tvShows)
+        {
+            @await Html.PartialAsync("_MovieCard", new List<WatchMe.Models.TVShow> { tvShow })
+        }
+    </div>
+}
+
+<!-- Sayfa stili -->
+<style>
+    body {
+        background-color: #111; /* Sayfa arka fonunu siyah yap */
+        color: white; /* Metin rengini beyaz yap */
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    h1, h2 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .category-items {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-start; /* Soldan hizalama */
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .category-item {
+        width: 220px; /* Her cardın genişliği */
+        background-color: #333; /* Card'ların arka planını koyu gri yap */
+        border-radius: 10px;
+        overflow: hidden;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    .category-item:hover {
+        transform: scale(1.05); /* Card üzerine gelince büyüt */
+    }
+
+    .movie-poster {
+        width: 100%; /* Resmin genişliği cardın genişliğine göre ayarlandı */
+        height: 320px; /* Resmin yüksekliğini ayarladık */
+        object-fit: cover; /* Resmi card içinde düzgün şekilde ölçekler */
+        border-bottom: 2px solid #555; /* Resim altına ince bir çizgi ekleyelim */
+    }
+
+    .rating {
+        background-color: #444;
+        color: #fff;
+        padding: 5px;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    .category-item-link {
+        text-decoration: none;
+    }
+
+    .category-item-link:hover {
+        color: #fff;
+    }
+</style>

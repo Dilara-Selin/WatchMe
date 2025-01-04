@@ -1,28 +1,58 @@
-@model WatchMe.Models.Movie
+@model List<WatchMe.Models.Movie>
 
-<h1>@Model.Title</h1>
-<p>@Model.Overview</p>
+@{
+    ViewData["Title"] = Model?.FirstOrDefault()?.Title ?? "Movie Details";
+}
 
-<p>Release Date: @(Model.ReleaseDate?.ToString("yyyy-MM-dd") ?? "Unknown")</p>
+@if (Model.Any())
+{
+    var movie = Model.First(); // İlk ve tek filmi alıyoruz
 
-<h3>Genres:</h3>
-<ul>
-    @if (Model.MovieGenres != null)
-    {
-        @foreach (var genre in Model.MovieGenres.Select(mg => mg.Genre))
-        {
-            <li>@genre.Name</li>
-        }
-    }
-</ul>
+    <div class="movie-details-container">
+        <h1>@movie.Title</h1>
+        <p>@movie.Overview</p>
 
-<h3>Comments:</h3>
-<ul>
-    @if (Model.MovieComments != null)
-    {
-        @foreach (var comment in Model.MovieComments)
-        {
-            <li>@(comment.User?.Nickname ?? "Unknown"): @comment.Comment</li>
-        }
-    }
-</ul>
+        <h3>Genres:</h3>
+        <ul>
+            @foreach (var genre in movie.MovieGenres.Select(mg => mg.Genre))
+            {
+                <li>@genre?.Name</li>
+            }
+        </ul>
+
+        <h3>Actions:</h3>
+        <form method="post" asp-action="LikeMovie" asp-route-movieId="@movie.MovieId">
+            <button type="submit" class="btn btn-success">Like</button>
+        </form>
+
+        <form method="post" asp-action="DislikeMovie" asp-route-movieId="@movie.MovieId">
+            <button type="submit" class="btn btn-danger">Dislike</button>
+        </form>
+
+        <form method="post" asp-action="AddToWatchList">
+            <input type="hidden" name="movieId" value="@movie.MovieId" />
+            <button type="submit" class="btn btn-warning">Mark as Watched</button>
+        </form>
+
+        <h3>Comments:</h3>
+        <ul>
+            @foreach (var comment in movie.MovieComments)
+            {
+                <li>
+                    <strong>@comment.User?.Nickname</strong>: @comment.Comment
+                </li>
+            }
+        </ul>
+
+        <h3>Add a Comment:</h3>
+        <form method="post" asp-action="AddComment">
+            <input type="hidden" name="movieId" value="@movie.MovieId" />
+            <textarea name="comment" placeholder="Write your comment..."></textarea>
+            <button type="submit" class="btn btn-primary">Add Comment</button>
+        </form>
+    </div>
+}
+else
+{
+    <p>Movie data is not available.</p>
+}

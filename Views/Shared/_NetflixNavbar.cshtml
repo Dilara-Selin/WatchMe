@@ -45,12 +45,13 @@
             <!-- Arama ve Profil Butonları -->
             <div class="d-flex ms-auto position-relative">
                 <!-- Arama alanı -->
-                <form class="d-flex position-relative" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Ara..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 20px;">
-                    <button class="btn position-absolute end-0 me-2" type="submit" style="background: none; border: none;">
-                        <i class="fas fa-search text-success"></i>
-                    </button>
-                </form>
+            
+<form class="d-flex position-relative" role="search" method="get" action="/search">
+    <input class="form-control me-2" type="search" name="searchTerm" placeholder="Ara..." aria-label="Search" style="background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 20px;">
+    <button class="btn position-absolute end-0 me-2" type="submit" style="background: none; border: none;">
+        <i class="fas fa-search text-success"></i>
+    </button>
+</form>
                 <!-- Profil simgesi -->
                 <a class="nav-link ms-3" href="/Profile/Profile">
                     <i class="fas fa-user"></i>
