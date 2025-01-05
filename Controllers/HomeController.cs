@@ -91,23 +91,5 @@ namespace WatchMe.Controllers
             return View(allMovies);
         }
 
-<<<<<<< Updated upstream
-=======
-        // Display movies by genre
-        public async Task<IActionResult> MoviesByGenre(int genreId)
-        {
-            var genre = await _context.Genres
-                .Include(g => g.MovieGenres) // Including the relationship between Genre and MovieGenres
-                .ThenInclude(mg => mg.Movie) // Including related movies for each genre
-                .FirstOrDefaultAsync(g => g.GenreId == genreId);
-
-            if (genre == null)
-            {
-                return NotFound("Genre not found.");
-            }
-
-            return View(genre); // Pass genre data to the view
-        }
->>>>>>> Stashed changes
     }
 }

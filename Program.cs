@@ -10,20 +10,17 @@ builder.Logging.AddConsole();
 builder.Logging.AddDebug();
 
 // Add services to the container
-<<<<<<< Updated upstream
 builder.Services.AddControllersWithViews()
     .AddJsonOptions(options =>
     {
         options.JsonSerializerOptions.ReferenceHandler = System.Text.Json.Serialization.ReferenceHandler.Preserve;
     });
-=======
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))); 
 
 builder.Services.AddScoped<EmailService>(); 
 builder.Services.AddScoped<ResetPasswordService>(); 
 builder.Services.AddControllersWithViews();
->>>>>>> Stashed changes
 
 builder.Services.AddCors(options =>
 {
@@ -35,15 +32,11 @@ builder.Services.AddCors(options =>
     });
 });
 
-<<<<<<< Updated upstream
+builder.Services.AddScoped<TVShowService>();
+
 builder.Services.AddScoped<MovieService>();
 // Add Authorization
-=======
 
-
-
-
->>>>>>> Stashed changes
 builder.Services.AddAuthorization();
 
 var app = builder.Build();

@@ -21,8 +21,6 @@ namespace WatchMe.Controllers
     }
         
 
-        
-
         // Film detay sayfası
         public async Task<IActionResult> LikeMovie(int movieId)
     {
@@ -98,6 +96,7 @@ public async Task<IActionResult> Details(int? id)
         await _movieService.AddCommentAsync(movieId, userId, comment);
         return RedirectToAction("Details", new { id = movieId });
     }
+
 
     // Yorum güncellemek
     [HttpPost]

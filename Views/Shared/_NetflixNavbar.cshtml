@@ -13,16 +13,19 @@
                 </li>
                 <!-- Diziler için Dropdown -->
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="seriesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Diziler
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="seriesDropdown">
-                        <li><a class="dropdown-item" href="#">Aksiyon</a></li>
-                        <li><a class="dropdown-item" href="#">Komedi</a></li>
-                        <li><a class="dropdown-item" href="#">Drama</a></li>
-                        <li><a class="dropdown-item" href="#">Gerilim</a></li>
-                    </ul>
-                </li>
+    <a class="nav-link dropdown-toggle" href="#" id="tvshowsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        Diziler
+    </a>
+    <ul class="dropdown-menu" aria-labelledby="tvshowsDropdown">
+        <li><a class="dropdown-item" href="@Url.Action("TVShowsByGenre", "Genre", new { genreId = 18 })">Drama</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("TVShowsByGenre", "Genre", new { genreId = 10759 })">Action</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("TVShowsByGenre", "Genre", new { genreId = 80 })">Crime</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("TVShowsByGenre", "Genre", new { genreId = 16 })">Animation</a></li>
+        <li><a class="dropdown-item" href="@Url.Action("TVShowsByGenre", "Genre", new { genreId = 10765 })">Sci-Fi & Fantasy</a></li>
+    </ul>
+</li>
+
+
                 <!-- Filmler için Dropdown -->
 <li class="nav-item dropdown">
     <a class="nav-link dropdown-toggle" href="#" id="moviesDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
