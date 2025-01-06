@@ -6030,25 +6030,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\gzltm\\.nuget\\packages\\": {},
+    "C:\\Users\\aysub\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
+      "projectUniqueName": "C:\\src\\WatchMe\\WatchMe.csproj",
       "projectName": "WatchMe",
-      "projectPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
-      "packagesPath": "C:\\Users\\gzltm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\",
+      "projectPath": "C:\\src\\WatchMe\\WatchMe.csproj",
+      "packagesPath": "C:\\Users\\aysub\\.nuget\\packages\\",
+      "outputPath": "C:\\src\\WatchMe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\gzltm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\aysub\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config"
       ],
       "originalTargetFrameworks": [
         "net9.0"

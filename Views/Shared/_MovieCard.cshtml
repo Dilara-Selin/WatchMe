@@ -50,6 +50,19 @@
     }
 </div>
 
+                    <!-- Puanlama -->
+                    <div class="rating">
+                        @tvShow.Popularity?.ToString("0.0")
+                    </div>
+                </div>
+            </a>
+        }
+    }
+    else
+    {
+        <p>No movie or TV show data available.</p>
+    }
+</div>
  <style>
     .movie-poster {
     width: 100%;
@@ -148,5 +161,5 @@
             grid-template-columns: 1fr; /* Tek sütun */
             gap: 5px;
             padding: 5px 10px;
-        }
+        }
 </style>

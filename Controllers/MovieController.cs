@@ -113,6 +113,13 @@ namespace WatchMe.Controllers
             _context.MovieComments.Update(comment);
             await _context.SaveChangesAsync();
 
+    // Yorum güncellemek
+    [HttpPost]
+public async Task<IActionResult> UpdateComment(int commentId, string newComment, int movieId)
+{
+    var comment = await _context.MovieComments
+        .FirstOrDefaultAsync(c => c.MovieCommentId == commentId);
+
             return RedirectToAction("Details", new { id = movieId });
         }
 

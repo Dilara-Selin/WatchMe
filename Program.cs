@@ -22,6 +22,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 
 // Diğer servisleri ekle
 builder.Services.AddScoped<IMovieSearchService, MovieSearchService>();
+builder.Services.AddScoped<EmailService>(); 
+builder.Services.AddScoped<ResetPasswordService>(); 
+builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddScoped<ResetPasswordService>();
@@ -41,6 +44,13 @@ builder.Services.AddCors(options =>
               .AllowAnyMethod();
     });
 });
+
+builder.Services.AddScoped<TVShowService>();
+
+builder.Services.AddScoped<MovieService>();
+// Add Authorization
+
+builder.Services.AddAuthorization();
 
 var app = builder.Build();
 

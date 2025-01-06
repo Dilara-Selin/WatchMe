@@ -40,6 +40,18 @@
             {
                 <li>
                     <strong>@comment.User?.Nickname</strong>: @comment.Comment
+
+                    @if (comment.UserId == 1) // Kullanıcı sadece kendi yorumunu silebilir veya güncelleyebilir
+                    {
+                        <form method="post" action="@Url.Action("DeleteComment", "Movie", new { commentId = comment.MovieCommentId, movieId = movie.MovieId })">
+                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                        </form>
+
+                        <form method="post" action="@Url.Action("UpdateComment", "Movie", new { commentId = comment.MovieCommentId, movieId = movie.MovieId })">
+                            <input type="text" name="newComment" value="@comment.Comment" class="form-control" />
+                            <button type="submit" class="btn btn-warning btn-sm">Update</button>
+                        </form>
+                    }
                 </li>
             }
         </ul>
@@ -47,9 +59,11 @@
         <h3>Add a Comment:</h3>
         <form method="post" asp-action="AddComment">
             <input type="hidden" name="movieId" value="@movie.MovieId" />
-            <textarea name="comment" placeholder="Write your comment..."></textarea>
+            <textarea name="comment" placeholder="Write your comment..." class="form-control"></textarea>
             <button type="submit" class="btn btn-primary">Add Comment</button>
         </form>
+
+        
     </div>
 }
 else
