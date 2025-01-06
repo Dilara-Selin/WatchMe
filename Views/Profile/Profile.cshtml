@@ -4,167 +4,120 @@
 @using WatchMe.Controllers
 @using WatchMe.Services
 
-@inject AppDbContext _context;
+@inject AppDbContext _context
 @model List<WatchMe.Models.Movie>
 
 <div class="container my-5">
-    <div class="profile-card">
-        <!-- Header -->
-        <div class="profile-header">
-            <i class="fas fa-user-tie profile-icon"></i>
-            <h2>GÜZEL</h2>
-            <i class="far fa-edit fa-2x"></i>
-        </div>
-
-        <!-- Body -->
-        <div class="profile-body">
-            <div class="info-row">
-                <p>E-mail:</p>
-                <h6>guzel@gmail.com</h6>
-            </div>
-            <div class="info-row">
-                <p>Telefon:</p>
-                <h6>055177777</h6>
-            </div>
-            <div class="divider"></div>
-
-            <!-- Social Links -->
-            <div class="social-links">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-                <a href="#"><i class="fab fa-twitter"></i></a>
-            </div>
+    <div class="profile-container">
+        <div class="profile-content">
+            <h2>Hoşgeldin, @ViewData["UserName"]</h2> <!-- Hoşgeldin mesajı -->
+            <p>E-mail: @ViewData["UserEmail"]</p> <!-- Kullanıcı e-posta bilgisi -->
         </div>
     </div>
 </div>
 
 <!-- Liked Movies Section -->
 <section>
-    <h2>Beğendiklerin</h2>
+    <h3>Beğendiklerin</h3>
     @if (Model == null || !Model.Any())
     {
         <p>No liked movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
         @await Html.PartialAsync("_LikedCard", Model)
     }
 </section>
-<hr class="divider-style">
 
 <!-- Beğenmediklerim Section -->
 <section>
-    <h2>Beğenmediklerim</h2>
+    <h3>Beğenmediklerim</h3>
     @if (Model == null || !Model.Any()) 
     {
         <p>No unliked movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
         @await Html.PartialAsync("_LikedCard", Model)
     }
 </section>
 
-<hr class="divider-style">
-
 <!-- Watched Movies Section -->
 <section>
-    <h2>İzlenenler</h2>
+    <h3>İzlenenler</h3>
     @if (Model == null || !Model.Any()) 
     {
         <p>No watched movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
         @await Html.PartialAsync("_LikedCard", Model)
     }
 </section>
 
-<hr class="divider-style">
-
 <!-- Commented Movies Section -->
 <section>
-    <h2>Yorum Yaptıklarım</h2>
+    <h3>Yorum Yaptıklarım</h3>
     @if (Model == null || !Model.Any()) 
     {
         <p>No commented movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
         @await Html.PartialAsync("_LikedCard", Model)
     }
 </section>
 
-<!-- Profile Card Styles -->
+<!-- Profile Styles -->
 <style>
-    .profile-card {
-        max-width: 900px;
-        margin: auto;
-        background: #ffffff;
-        border-radius: 15px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-        overflow: hidden;
-    }
-    .profile-card .profile-header {
-        background: linear-gradient(to right, grey, grey);
-        color: #fff;
-        padding: 40px 20px;
-        text-align: center;
-    }
-    .profile-card .profile-header .profile-icon {
-        font-size: 80px;
-        margin-bottom: 15px;
-    }
-    .profile-card .profile-header h2 {
-        font-size: 28px;
-        margin: 0;
-        font-weight: bold;
-    }
-    .profile-card .profile-body {
-        padding: 30px 20px;
-    }
-    .profile-card .profile-body .divider {
-        border-top: 2px solid grey;
-        margin: 30px 0;
-    }
-    .profile-card .profile-body .info-row {
-        display: flex;
-        justify-content: space-between;
-        padding: 10px 0;
-        border-bottom: 1px solid #e9ecef;
-    }
-    .profile-card .profile-body .info-row p {
-        margin: 0;
-        font-weight: bold;
-    }
-    .profile-card .profile-body .info-row h6 {
-        margin: 0;
-        color: #6c757d;
-    }
-    .profile-card .profile-body .social-links {
+    /* Profil alanı ve genel yerleşim */
+    .container {
         display: flex;
         justify-content: center;
-        margin-top: 20px;
-    }
-    .profile-card .profile-body .social-links a {
-        color: grey;
-        font-size: 24px;
-        margin: 0 10px;
-        transition: color 0.3s;
-    }
-    .profile-card .profile-body .social-links a:hover {
-        color: grey;
+        align-items: center;
+        height: 80vh; /* Profil için dikey yüksekliği ayarladık */
     }
 
-    .divider-style {
-        margin: 15px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        border: none;
-        height: 2px;
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 500px;
+        width: 100%;
         background-color: #333;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    .profile-content {
+        color: white;
+        text-align: center;
+    }
+
+    /* Profil Başlık ve E-posta */
+    .profile-content h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .profile-content p {
+        font-size: 16px;
+        color: #bbb;
+    }
+
+    /* Bölüm Başlıkları */
+    section h3 {
+        font-size: 20px;
+        color: white;
+        margin-top: 40px;
+    }
+
+    /* Divider */
+    hr {
+        margin: 20px 0;
+        border: none;
+        height: 1px;
+        background-color: #444;
     }
 </style>

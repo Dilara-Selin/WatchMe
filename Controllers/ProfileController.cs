@@ -5,26 +5,42 @@ using System.Threading.Tasks;
 using WatchMe.Models; // Veritabanı modelleriniz veya view modelleri
 using WatchMe.Protos;
 using Grpc.Net.Client;
+using WatchMe.Data;
 
 namespace WatchMe.Controllers
+
 {
+
+    
     public class ProfileController : Controller
     {
         private readonly ILogger<ProfileController> _logger;
+        private readonly AppDbContext _context;
 
-        public ProfileController(ILogger<ProfileController> logger)
+        // Her iki bağımlılığı tek constructor üzerinden alıyoruz
+        public ProfileController(ILogger<ProfileController> logger, AppDbContext context)
         {
             _logger = logger;
+            _context = context;
         }
+
+        
+        
+
 
         public async Task<IActionResult> Profile()
         {
+
+            int userId = 1; // Sabit kullanıcı ID
+        var user = await _context.Users.FindAsync(userId);
+        ViewData["UserName"] = user?.Nickname;
+        ViewData["UserEmail"] = user?.Email;
+        
             // gRPC istemcisi oluştur
             var channel = GrpcChannel.ForAddress("https://localhost:5001");
             var client = new MovieLikeService.MovieLikeServiceClient(channel);
 
-            // Kullanıcı kimliği her zaman 1
-            int userId = 1;  // Sabit olarak 1 kullanıcı ID'si
+        
 
             // gRPC servisine istek gönder
             var request = new LikedMoviesRequest { UserId = userId };
