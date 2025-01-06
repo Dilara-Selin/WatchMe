@@ -49,6 +49,10 @@
       "PackagePath": "staticwebassets/images/hobbit.jpg"
     },
     {
+      "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/logo.png",
+      "PackagePath": "staticwebassets/images/logo.png"
+    },
+    {
       "Id": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/oppenheimer.jpeg",
       "PackagePath": "staticwebassets/images/oppenheimer.jpeg"
     },

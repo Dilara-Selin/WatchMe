@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "34kH9RkNbOeJ47/0s39M7/8OtajRocb3NTvcnvwROk0=",
+  "Hash": "ZswJMZCLBxJe95Tg5miPENjNEcdT7K2V8WVTk6Pjx0I=",
   "Source": "WatchMe",
   "BasePath": "_content/WatchMe",
   "Mode": "Default",
@@ -1695,6 +1695,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/images/hobbit.jpg"
+    },
+    {
+      "Identity": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/logo.png",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8uiznsusg0",
+      "Integrity": "IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/images/logo.png"
     },
     {
       "Identity": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/oppenheimer.jpeg",
@@ -4520,6 +4541,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.8uiznsusg0.png",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:54:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8uiznsusg0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/images/logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 17:54:44 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc="
         }
       ]
     },

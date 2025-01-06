@@ -536,3 +536,5 @@ C:/Users/gzltm/OneDrive/Masaustu/web-proje/WatchMe/obj/Debug/net9.0/ref/WatchMe.
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.pdb
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/WatchMe.genruntimeconfig.cache
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/ref/WatchMe.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/package-lock.json
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/package.json
