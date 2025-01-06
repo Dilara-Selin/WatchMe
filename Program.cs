@@ -1,13 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using WatchMe.Data;
 using WatchMe.Services;
+using Microsoft.Extensions.Logging;
+using WatchMe.Protos; // ILogger için ekleme
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Loglama seviyesini ayarla
 builder.Logging.ClearProviders();
 builder.Logging.AddConsole();
-builder.Logging.AddDebug();
+builder.Logging.SetMinimumLevel(LogLevel.Debug); // Log seviyesini Debug olarak ayarlayalım
 
 // Add services to the container
 builder.Services.AddControllersWithViews()
@@ -18,20 +20,20 @@ builder.Services.AddControllersWithViews()
 
 // DbContext servisini ekle
 builder.Services.AddDbContext<AppDbContext>(options =>
-    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"))); 
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
 
 // Diğer servisleri ekle
 builder.Services.AddScoped<IMovieSearchService, MovieSearchService>();
 builder.Services.AddScoped<EmailService>(); 
 builder.Services.AddScoped<ResetPasswordService>(); 
-builder.Services.AddControllersWithViews();
-
-builder.Services.AddScoped<EmailService>();
-builder.Services.AddScoped<ResetPasswordService>();
 builder.Services.AddScoped<MovieService>();
+builder.Services.AddGrpc(); // gRPC servisi ekle
 
 // SOAPClient servisini Scoped olarak ekle
 builder.Services.AddScoped<SOAPClient>();
+
+// MovieLikeServiceImpl servisini ekleyin
+builder.Services.AddScoped<MovieLikeService.MovieLikeServiceBase, MovieLikeServiceImpl>();
 
 // CORS ve Authorization yapılandırması
 builder.Services.AddAuthorization();
@@ -39,7 +41,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("http://localhost:3000") // Your frontend URL
+        policy.WithOrigins("http://localhost:3000") // Frontend URL
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
@@ -47,9 +49,7 @@ builder.Services.AddCors(options =>
 
 builder.Services.AddScoped<TVShowService>();
 
-builder.Services.AddScoped<MovieService>();
 // Add Authorization
-
 builder.Services.AddAuthorization();
 
 var app = builder.Build();
@@ -69,6 +69,9 @@ app.UseDefaultFiles();
 app.UseStaticFiles();
 app.UseCors("AllowFrontend");
 app.UseAuthorization();
+
+// gRPC servisini kaydet
+app.MapGrpcService<MovieLikeServiceImpl>();  // MovieLikeServiceImpl'i gRPC servisi olarak kaydedin
 
 // Default rotayı ekle
 app.MapControllerRoute(

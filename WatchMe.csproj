@@ -39,11 +39,9 @@
     <PackageReference Include="System.ServiceModel.Http" Version="8.1.1" />
     <PackageReference Include="System.ServiceModel.Primitives" Version="8.1.1" />
   </ItemGroup>
-
-  <ItemGroup>
-    <!-- Protobuf Dosyasını sadece bir kez ekleyin ve "GrpcServices" özelliğini "Server" olarak ayarlayın -->
-    <Protobuf Include="Protos/movielike.proto" GrpcServices="Both" />
-  </ItemGroup>
+<ItemGroup>
+  <Protobuf Include="Protos\movielike.proto" GrpcServices="Both" />
+</ItemGroup>
 
 
 </Project>

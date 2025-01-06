@@ -1,5 +1,6 @@
 @model List<WatchMe.Models.Movie>
 
+
 @if (Model == null || !Model.Any())
 {
     <p>No movies available to display.</p>
@@ -14,7 +15,7 @@ else
                 <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" class="movie-poster"
                      alt="@movie.Title" />
 
-                    <button type="submit" class="remove-btn">Sil</button>
+                  
 
                 <!-- Puanlama -->
                 <div class="rating">
@@ -26,113 +27,81 @@ else
    
 }
 
-<style>
-    
-.liked-category-items {
+ <style>/* Movie Poster */
+.movie-poster {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Category Container */
+.category-items {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 sütun */
     gap: 15px;
-    padding: 20px 50px;
+    padding: 20px;
+    grid-auto-rows: 1fr; /* Satır yüksekliğini otomatik yap */
+    overflow-x: auto; /* Yatay kaydırma ekleyelim */
+    white-space: nowrap; /* Her eleman yatayda kayacak */
 }
 
-.liked-category-item {
-    height: 360px; /* Daha dikey bir görünüm için yüksekliği artırdık */
+/* Category Item */
+.category-item {
     background-color: #333;
-    border-radius: 25px;
+    border-radius: 15px;
     overflow: hidden;
     position: relative;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge efekti */
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Yumuşak geçişler */
-}
-
-.liked-category-item img {
-    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease; /* Resmin büyüme efektine geçiş */
+    width: 200px; /* Her öğenin sabit genişliği */
+    flex-shrink: 0; /* Ögelerin küçülmesini engelle */
 }
 
-.liked-category-name {
+/* Resim */
+.category-item img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+/* Category Name */
+.category-name {
     position: absolute;
     bottom: 10px;
     left: 10px;
     right: 10px;
     padding: 5px;
-    color: grey;
+    color: white;
     font-size: 1.2rem;
     text-align: center;
-    
+    background-color: rgba(0, 0, 0, 0.6); /* Arka planda şeffaf bir zemin */
+    border-radius: 5px;
 }
 
-/* Resim üzerine gelindiğinde efekti */
-.liked-category-item:hover {
-    transform: scale(1.2); /* Resmin biraz büyümesi */
-   box-shadow: 0 8px 20px 5px rgba(0, 0, 0, 0.4);
-    z-index: 1; /* Öne çıkma */
+/* Hover Efekti */
+.category-item:hover {
+    transform: scale(1.05); /* Büyütme efekti */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    z-index: 1;
 }
 
-/* Sağ üst köşede "Çıkar" butonu */
-    .remove-btn {
-        position: absolute;
-        top: 10px;
-        right: 10px;
-        background-color:grey;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 25px;
-        display: none; /* Başlangıçta gizli */
-        font-size: 1rem;
-    }
+/* Rating (Puan) */
+.rating {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    background-color: #ff9900; /* Turuncu arka plan */
+    color: white;
+    padding: 5px 10px;
+    border-radius: 25px;
+    font-size: 1rem;
+    display: none; /* Başlangıçta gizli */
+}
 
-    /* Sol alt köşede puan */
-    .liked-rating {
-        position: absolute;
-        bottom: 10px;
-        left: 10px;
-        background-color: grey;
-        color: white;
-        padding: 5px 10px;
-        border-radius: 25px;
-        font-size: 1rem;
-        display: none; /* Başlangıçta gizli */
-    }
-     /* Resim üzerine gelindiğinde buton ve puanın görünmesi */
-    .liked-category-item:hover .remove-btn,
-    .liked-category-item:hover .liked-rating {
-        display: block;
-    }
-
-       /* Responsive Tasarım */
-
-    /* Tabletler (768px ve üstü) */
-    @@media (max-width: 1200px) {
-        .liked-category-items {
-            grid-template-columns: repeat(4, 1fr); /* 4 sütun */
-        }
-    }
-
-    /* Küçük Tabletler (768px ve altı) */
-    @@media (max-width: 992px) {
-        .liked-category-items {
-            grid-template-columns: repeat(3, 1fr); /* 3 sütun */
-        }
-    }
-
-    /* Mobil Telefonlar (576px ve altı) */
-    @@media (max-width: 768px) {
-        .liked-category-items {
-            grid-template-columns: repeat(2, 1fr); /* 2 sütun */
-            gap: 10px;
-            padding: 10px 20px;
-        }
-    }
-
-    /* Küçük Telefonlar (400px ve altı) */
-    @@media (max-width: 400px) {
-        .liked-category-items {
-            grid-template-columns: 1fr; /* Tek sütun */
-            gap: 5px;
-            padding: 5px 10px;
-        }
-
+/* Hover'da Puanı Göster */
+.category-item:hover .rating {
+    display: block;
+}
 </style>

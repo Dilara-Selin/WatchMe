@@ -22,4 +22,4 @@ message LikedMoviesResponse {
 // gRPC hizmeti
 service MovieLikeService {
     rpc GetLikedMovies (LikedMoviesRequest) returns (LikedMoviesResponse);
-}
+} 
