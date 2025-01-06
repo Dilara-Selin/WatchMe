@@ -6,6 +6,7 @@ using WatchMe.Models; // Veritabanı modelleriniz veya view modelleri
 using WatchMe.Protos;
 using Grpc.Net.Client;
 using WatchMe.Data;
+using Microsoft.EntityFrameworkCore;
 
 namespace WatchMe.Controllers
 
@@ -23,9 +24,6 @@ namespace WatchMe.Controllers
             _logger = logger;
             _context = context;
         }
-
-        
-        
 
 
         public async Task<IActionResult> Profile()
@@ -70,8 +68,23 @@ namespace WatchMe.Controllers
                 _logger.LogWarning("No liked movies found for user with ID: " + userId);
             }
 
-            // Profil sayfasını ve likedMovies verisini birlikte döndür
-            return View(likedMovies); // View'ı döndürerek tüm verileri gönderiyoruz
+            var dislikedMovies = await _context.MovieDislikes
+        .Where(md => md.UserId == userId)
+        .Select(md => md.Movie)
+        .ToListAsync();
+
+        var watchedMovies = await _context.MovieWatchLists
+        .Where(mw => mw.UserId == userId)
+        .Select(mw => mw.Movie)
+        .ToListAsync();
+
+        // ViewData üzerinden iki listeyi gönderiyoruz
+    ViewData["LikedMovies"] = likedMovies;
+    ViewData["DislikedMovies"] = dislikedMovies;
+    ViewData["WatchedMovies"] = watchedMovies;
+
+            return View();
         }
+
     }
 }

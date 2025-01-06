@@ -37,32 +37,16 @@
     </div>
 </div>
 
-<!-- Liked Movies Section -->
+
 <section>
     <h2>Beğendiklerin</h2>
-    @if (Model == null || !Model.Any())
+    @if (ViewData["LikedMovies"] == null || !(ViewData["LikedMovies"] is List<Movie> likedMovies) || !likedMovies.Any())
     {
         <p>No liked movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard", Model)
-    }
-</section>
-<hr class="divider-style">
-
-<!-- Beğenmediklerim Section -->
-<section>
-    <h2>Beğenmediklerim</h2>
-    @if (Model == null || !Model.Any()) 
-    {
-        <p>No unliked movies available.</p>
-    }
-    else
-    {
-        <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard")
+        @await Html.PartialAsync("_LikedCard", likedMovies)
     }
 </section>
 
@@ -70,15 +54,14 @@
 
 <!-- Watched Movies Section -->
 <section>
-    <h2>İzlenenler</h2>
-    @if (Model == null || !Model.Any()) 
+    <h2>Beğenmediklerin</h2>
+    @if (ViewData["DislikedMovies"] == null || !(ViewData["DislikedMovies"] is List<Movie> dislikedMovies) || !dislikedMovies.Any()) 
     {
-        <p>No watched movies available.</p>
+        <p>No disliked movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard")
+        @await Html.PartialAsync("_LikedCard", dislikedMovies)
     }
 </section>
 
@@ -86,15 +69,14 @@
 
 <!-- Commented Movies Section -->
 <section>
-    <h2>Yorum Yaptıklarım</h2>
-    @if (Model == null || !Model.Any()) 
+    <h2>İzlediklerin</h2>
+    @if (ViewData["WatchedMovies"] == null || !(ViewData["WatchedMovies"] is List<Movie> watchedMovies) || !watchedMovies.Any())
     {
-        <p>No commented movies available.</p>
+        <p>No watched movies available.</p>
     }
     else
     {
-        <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard")
+        @await Html.PartialAsync("_LikedCard", watchedMovies)
     }
 </section>
 
