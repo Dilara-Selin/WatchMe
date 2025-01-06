@@ -38,6 +38,25 @@ namespace WatchMe.Controllers
 }
 
 
+public IActionResult TVShowsByGenre(int genreId)
+{
+    var genre = _context.Genres
+        .Include(g => g.TVShowGenres)
+        .ThenInclude(mg => mg.TVShow)
+        .FirstOrDefault(g => g.GenreId == genreId);
+
+    if (genre == null)
+    {
+        return NotFound();
+    }
+
+    var tvshows = genre.TVShowGenres.Select(mg => mg.TVShow).ToList();
+
+    ViewData["GenreName"] = genre.Name;
+
+    return View("TVShowsByGenre", tvshows);  // PartialView
+}
+
 }
 
 }
