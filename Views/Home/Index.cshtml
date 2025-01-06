@@ -1,6 +1,8 @@
 ﻿@using Microsoft.EntityFrameworkCore
 @using WatchMe.Data
 @inject AppDbContext _context;
+@model List<WatchMe.Models.Movie>
+
 
 <div id="demo" class="carousel slide " data-bs-ride="carousel">
     <div class="carousel-inner">
@@ -27,7 +29,6 @@
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
 
-
 <section>
     <h2>Yeni Çıkanlar</h2>
    @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderByDescending(m => m.ReleaseDate).Take(6).ToListAsync())
@@ -46,7 +47,7 @@
 
 <section>
     <h2>Beğendiklerin</h2>
-    @await Html.PartialAsync("_LikedCard")
+    @await Html.PartialAsync("_LikedCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 </section>
 
 

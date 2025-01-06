@@ -9,4 +9,5 @@ public class ProfileController : Controller
             ViewData["ShowHeaderFooter"] = true;
         return View();
     }
+    
 }

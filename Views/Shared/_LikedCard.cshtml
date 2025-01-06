@@ -1,40 +1,34 @@
+@model List<WatchMe.Models.Movie>
 
+@if (Model == null || !Model.Any())
+{
+    <p>No movies available to display.</p>
+}
+else
+{  
     <div class="liked-category-items">
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Drama">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Comedy">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Action">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Sci-Fi">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Horror">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-        <div class="liked-category-item">
-            <img src="https://via.placeholder.com/200x300" alt="Romance">
-             <div class="remove-btn">Sil</div>
-        <div class="liked-rating">9.0</div>
-        </div>
-    </div>
+        @foreach (var movie in Model)
+        {
+            <div class="liked-category-item">
+                <!-- Resim -->
+                <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" class="movie-poster"
+                     alt="@movie.Title" />
 
+                    <button type="submit" class="remove-btn">Sil</button>
+
+                <!-- Puanlama -->
+                <div class="rating">
+                    @movie.Popularity?.ToString("0")
+                </div>
+            </div>
+        }
+    </div>
+   
+}
 
 <style>
-    .liked-category-items {
+    
+.liked-category-items {
     display: grid;
     grid-template-columns: repeat(6, 1fr); /* 6 sütun */
     gap: 15px;

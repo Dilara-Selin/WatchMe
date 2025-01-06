@@ -164,4 +164,5 @@ namespace WatchMe.Controllers
             return PartialView("_NetflixCard", movies);
         }
     }
+    
 }

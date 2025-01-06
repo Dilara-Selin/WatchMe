@@ -1,5 +1,7 @@
-﻿
-
+﻿@using Microsoft.EntityFrameworkCore
+@using WatchMe.Data
+@inject AppDbContext _context;
+@model List<WatchMe.Models.Movie>
 
 <div class="container my-5">
     <div class="profile-card">
@@ -36,6 +38,7 @@
 <section>
     <h2>Beğendiklerin</h2>
     @await Html.PartialAsync("_LikedCard")
+
 </section>
 
 <hr style="margin: 15px; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); border: none; height: 2px; background-color: #333;">
@@ -59,7 +62,7 @@
 
 <section>
     <h2>Yorum Yaptıklarım</h2>
-    @await Html.PartialAsync("_LikedCard") <!-- sil e basıldıgı zaman yorum silenecek -->
+    @await Html.PartialAsync("_LikedCard")
 </section>
 
 
