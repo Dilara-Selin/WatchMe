@@ -110,4 +110,49 @@ public async Task<Movie?> GetMovieByIdAsync(int id)
     return await _context.Movies.FirstOrDefaultAsync(m => m.MovieId == id);
 }
 
+public async Task RemoveMovieFromWatchlistAsync(int userId,int movieId)
+{
+    // MovieWatchList kaydını bul ve sil
+    var watchlistEntry = await _context.Set<MovieWatchList>()
+                                       .FirstOrDefaultAsync(w => w.UserId == userId && w.MovieId == movieId);
+    if (watchlistEntry != null)
+    {
+        _context.Set<MovieWatchList>().Remove(watchlistEntry);
+
+        // MovieLike kaydını bul ve sil
+        var likeEntry = await _context.MovieLikes
+                                      .FirstOrDefaultAsync(l => l.UserId == userId && l.MovieId == movieId);
+        if (likeEntry != null)
+        {
+            _context.MovieLikes.Remove(likeEntry);
+        }
+
+        // MovieDislike kaydını bul ve sil
+        var dislikeEntry = await _context.MovieDislikes
+                                         .FirstOrDefaultAsync(d => d.UserId == userId && d.MovieId == movieId);
+        if (dislikeEntry != null)
+        {
+            _context.MovieDislikes.Remove(dislikeEntry);
+        }
+
+        // MovieComment kayıtlarını bul ve sil
+        var commentEntries = await _context.MovieComments
+                                           .Where(c => c.UserId == userId && c.MovieId == movieId)
+                                           .ToListAsync();
+        if (commentEntries.Any())
+        {
+            _context.MovieComments.RemoveRange(commentEntries);
+        }
+
+        // Değişiklikleri kaydet
+        await _context.SaveChangesAsync();
+    }
+    else
+    {
+        Console.WriteLine("Watchlist entry not found for the given user and movie.");
+    }
+}
+
+
+
 }

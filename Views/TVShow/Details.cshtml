@@ -56,6 +56,12 @@
                     <input type="hidden" name="tvShowId" value="@Model.TVShowId" />
                     <button type="submit" class="btn btn-action">+ Watchlist</button>
                 </form>
+
+                <form method="post" asp-action="RemoveTVShow" class="action-form">
+                    <input type="hidden" name="tvShowId" value="@Model.TVShowId" />
+                    <button type="submit" class="btn btn-action">- Remove from Watchlist</button>
+                </form>
+
             </div>
         </div>
     </div>

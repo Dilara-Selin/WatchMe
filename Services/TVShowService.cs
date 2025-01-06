@@ -98,4 +98,49 @@ public class TVShowService
     {
         return await _context.TVShows.FirstOrDefaultAsync(ts => ts.TVShowId == id);
     }
+
+    public async Task RemoveTVShowFromWatchlistAsync(int userId, int tvShowId)
+{
+    // TVShowWatchList kaydını bul ve sil
+    var watchlistEntry = await _context.Set<TVShowWatchList>()
+                                       .FirstOrDefaultAsync(w => w.UserId == userId && w.TVShowId == tvShowId);
+    if (watchlistEntry != null)
+    {
+        _context.Set<TVShowWatchList>().Remove(watchlistEntry);
+
+        // TVShowLike kaydını bul ve sil
+        var likeEntry = await _context.TVShowLikes
+                                      .FirstOrDefaultAsync(l => l.UserId == userId && l.TVShowId == tvShowId);
+        if (likeEntry != null)
+        {
+            _context.TVShowLikes.Remove(likeEntry);
+        }
+
+        // TVShowDislike kaydını bul ve sil
+        var dislikeEntry = await _context.TVShowDislikes
+                                         .FirstOrDefaultAsync(d => d.UserId == userId && d.TVShowId == tvShowId);
+        if (dislikeEntry != null)
+        {
+            _context.TVShowDislikes.Remove(dislikeEntry);
+        }
+
+        // TVShowComment kayıtlarını bul ve sil
+        var commentEntries = await _context.TVShowComments
+                                           .Where(c => c.UserId == userId && c.TVShowId == tvShowId)
+                                           .ToListAsync();
+        if (commentEntries.Any())
+        {
+            _context.TVShowComments.RemoveRange(commentEntries);
+        }
+
+        // Değişiklikleri kaydet
+        await _context.SaveChangesAsync();
+    }
+    else
+    {
+        Console.WriteLine("Watchlist entry not found for the given user and TV show.");
+    }
 }
+
+}
+

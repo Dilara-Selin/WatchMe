@@ -25,7 +25,7 @@ namespace WatchMe.Controllers
         // Dizi beğenme işlemi
         public async Task<IActionResult> LikeTVShow(int tvShowId)
 {
-    int userId = 1; // Manuel kullanıcı ID
+    int userId = GetCurrentUserId();
     bool isLiked = await _tvShowService.LikeTVShowAsync(userId, tvShowId);
 
     // Film zaten beğenilmişse mesajı gösterme
@@ -45,7 +45,7 @@ namespace WatchMe.Controllers
 // Dizi beğenmeme işlemi
 public async Task<IActionResult> DislikeTVShow(int tvShowId)
 {
-    int userId = 1; // Manuel kullanıcı ID
+    int userId = GetCurrentUserId();
     bool isDisliked = await _tvShowService.DislikeTVShowAsync(userId, tvShowId);
 
     // Dizi zaten beğenilmemişse mesajı gösterme
@@ -65,7 +65,7 @@ public async Task<IActionResult> DislikeTVShow(int tvShowId)
 // İzleme listesine ekleme işlemi
 public async Task<IActionResult> AddToWatchList(int tvShowId)
 {
-    int userId = 1; // Manuel kullanıcı ID
+    int userId = GetCurrentUserId();
     bool isAdded = await _tvShowService.AddToWatchListAsync(userId, tvShowId);
 
     // Dizi zaten izleme listesinde mi kontrol et
@@ -107,8 +107,7 @@ public async Task<IActionResult> AddToWatchList(int tvShowId)
     }
     ViewData["Comments"] = tvShow.TVShowComments.Count;
 
-    // Kullanıcı ID'sini alıyoruz
-    var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier) ?? "1"; // Varsayılan kullanıcı ID'si 1
+    int userId = GetCurrentUserId();
     ViewData["UserId"] = userId;
 
     // Null kontrolü yapıyoruz
@@ -125,7 +124,7 @@ public async Task<IActionResult> AddToWatchList(int tvShowId)
         [HttpPost]
         public async Task<IActionResult> AddComment(int tvShowId, string comment)
         {
-            int userId = 1; // Manuel kullanıcı ID
+            int userId = GetCurrentUserId();
             await _tvShowService.AddCommentAsync(tvShowId, userId, comment);
             return RedirectToAction("Details", new { id = tvShowId });
         }
@@ -166,6 +165,24 @@ public async Task<IActionResult> AddToWatchList(int tvShowId)
 
             return RedirectToAction("Details", new { id = tvShowId });
         }
+
+    private int GetCurrentUserId()
+        {
+            var userIdString = User?.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (int.TryParse(userIdString, out int userId))
+            {
+                return userId;
+            }
+            return 1; // Varsayılan kullanıcı ID'si (Güvenlik açısından geliştirilebilir)
+        }
+
+        public async Task<IActionResult> RemoveTVShow(int tvShowId)
+{
+    int userId = GetCurrentUserId();
+    await _tvShowService.RemoveTVShowFromWatchlistAsync(userId, tvShowId);
+    return RedirectToAction("Details", new { id = tvShowId });
+}
+
 
     }
 }
