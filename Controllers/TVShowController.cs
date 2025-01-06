@@ -9,78 +9,117 @@ namespace WatchMe.Controllers
 {
     public class TVShowController : Controller
     {
+        private readonly CommentRepository _commentRepository;
         private readonly TVShowService _tvShowService;
         private readonly AppDbContext _context;
         private readonly ILogger<TVShowController> _logger;
 
-        public TVShowController(TVShowService tvShowService, AppDbContext context, ILogger<TVShowController> logger)
+        public TVShowController(TVShowService tvShowService, AppDbContext context, ILogger<TVShowController> logger, CommentRepository commentRepository)
         {
             _tvShowService = tvShowService;
             _context = context;
             _logger = logger;
+            _commentRepository = commentRepository;
         }
 
         // Dizi beğenme işlemi
         public async Task<IActionResult> LikeTVShow(int tvShowId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isLiked = await _tvShowService.LikeTVShowAsync(userId, tvShowId);
-            TempData["Message"] = isLiked ? "Dizi beğenildi." : "Dizi zaten beğenilmiş.";
-            return RedirectToAction("Details", new { id = tvShowId });
-        }
+{
+    int userId = 1; // Manuel kullanıcı ID
+    bool isLiked = await _tvShowService.LikeTVShowAsync(userId, tvShowId);
 
-        // Dizi beğenmeme işlemi
-        public async Task<IActionResult> DislikeTVShow(int tvShowId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isDisliked = await _tvShowService.DislikeTVShowAsync(userId, tvShowId);
-            TempData["Message"] = isDisliked ? "Dizi beğenilmedi." : "Dizi zaten beğenilmemiş.";
-            return RedirectToAction("Details", new { id = tvShowId });
-        }
+    // Film zaten beğenilmişse mesajı gösterme
+    if (isLiked)
+    {
+        TempData["Message"] = "Dizi beğenildi.";
+    }
+    else
+    {
+        TempData["Message"] = "Dizi zaten beğenilmiş.";
+    }
 
-        // İzleme listesine ekleme işlemi
-        public async Task<IActionResult> AddToWatchList(int tvShowId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isAdded = await _tvShowService.AddToWatchListAsync(userId, tvShowId);
-            TempData["Message"] = isAdded ? "Dizi izleme listesine eklendi." : "Dizi zaten izleme listenizde.";
-            return RedirectToAction("Details", new { id = tvShowId });
-        }
+    return RedirectToAction("Details", new { id = tvShowId });
+}
+
+
+// Dizi beğenmeme işlemi
+public async Task<IActionResult> DislikeTVShow(int tvShowId)
+{
+    int userId = 1; // Manuel kullanıcı ID
+    bool isDisliked = await _tvShowService.DislikeTVShowAsync(userId, tvShowId);
+
+    // Dizi zaten beğenilmemişse mesajı gösterme
+    if (isDisliked)
+    {
+        TempData["Message"] = "Dizi beğenilmedi.";
+    }
+    else
+    {
+        TempData["Message"] = "Dizi zaten beğenilmemiş.";
+    }
+
+    return RedirectToAction("Details", new { id = tvShowId });
+}
+
+
+// İzleme listesine ekleme işlemi
+public async Task<IActionResult> AddToWatchList(int tvShowId)
+{
+    int userId = 1; // Manuel kullanıcı ID
+    bool isAdded = await _tvShowService.AddToWatchListAsync(userId, tvShowId);
+
+    // Dizi zaten izleme listesinde mi kontrol et
+    if (isAdded)
+    {
+        TempData["Message"] = "Dizi izleme listesine eklendi.";
+    }
+    else
+    {
+        TempData["Message"] = "Dizi zaten izleme listenizde.";
+    }
+
+    return RedirectToAction("Details", new { id = tvShowId });
+}
+
 
         // Dizi detay sayfası
         public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
 
-            // Diziyi ve ilişkili verileri getiriyoruz
-            var tvShow = await _context.TVShows
-                .Include(ts => ts.TVShowGenres!)
-                    .ThenInclude(tg => tg.Genre)
-                .Include(ts => ts.TVShowLikes)
-                .Include(ts => ts.TVShowDislikes)
-                .Include(ts => ts.TVShowComments!)
-                    .ThenInclude(tsc => tsc.User)
-                .AsNoTracking()
-                .FirstOrDefaultAsync(ts => ts.TVShowId == id);
+    // Diziyi ve ilişkili verileri getiriyoruz
+    var tvShow = await _context.TVShows
+        .Include(ts => ts.TVShowGenres!)
+            .ThenInclude(tg => tg.Genre)
+        .Include(ts => ts.TVShowLikes)
+        .Include(ts => ts.TVShowDislikes)
+        .Include(ts => ts.TVShowComments!)
+            .ThenInclude(tsc => tsc.User)
+        .AsNoTracking()
+        .FirstOrDefaultAsync(ts => ts.TVShowId == id);
 
-            if (tvShow == null)
-            {
-                return NotFound();
-            }
+    if (tvShow == null)
+    {
+        return NotFound();
+    }
+    ViewData["Comments"] = tvShow.TVShowComments.Count;
 
-            // Kullanıcı ID'sini alıyoruz
-            var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier) ?? "1"; // Varsayılan kullanıcı ID'si 1
-            ViewData["UserId"] = userId;
+    // Kullanıcı ID'sini alıyoruz
+    var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier) ?? "1"; // Varsayılan kullanıcı ID'si 1
+    ViewData["UserId"] = userId;
 
-            // Null kontrolü yapıyoruz
-            tvShow.TVShowComments ??= new List<TVShowComment>();
-            tvShow.TVShowGenres ??= new List<TVShowGenre>();
+    // Null kontrolü yapıyoruz
+    tvShow.TVShowComments ??= new List<TVShowComment>();
+    tvShow.TVShowGenres ??= new List<TVShowGenre>();
 
-            return View(tvShow);
-        }
+    var totalTVShowComments = _commentRepository.GetTotalMovieComments(tvShow.TVShowId);
+    ViewData["TotalComments"] = totalTVShowComments;
+
+    return View(tvShow);
+}
 
         // Yorum eklemek
         [HttpPost]

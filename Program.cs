@@ -48,6 +48,7 @@ builder.Services.AddCors(options =>
 });
 
 builder.Services.AddScoped<TVShowService>();
+builder.Services.AddScoped<CommentRepository>();
 
 // Add Authorization
 builder.Services.AddAuthorization();

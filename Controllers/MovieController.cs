@@ -13,80 +13,120 @@ namespace WatchMe.Controllers
     public class MovieController : Controller
     {
 
+        private readonly CommentRepository _commentRepository;
         private readonly MovieService _movieService;
         private readonly AppDbContext _context;
         private readonly ILogger<MovieController> _logger;
 
-        public MovieController(MovieService movieService, AppDbContext context, ILogger<MovieController> logger)
+        public MovieController(MovieService movieService, AppDbContext context, ILogger<MovieController> logger, CommentRepository commentRepository)
         {
             _movieService = movieService;
             _context = context;
             _logger = logger;
-      
+            _commentRepository = commentRepository;
         }
 
 
 
         // Film detay sayfası
         public async Task<IActionResult> LikeMovie(int movieId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isLiked = await _movieService.LikeMovieAsync(userId, movieId);
-            TempData["Message"] = isLiked ? "Film beğenildi." : "Film zaten beğenilmiş.";
-            return RedirectToAction("Details", new { id = movieId });
-        }
+{
+    int userId = GetCurrentUserId();
 
-        // Film beğenmeme işlemi
-        public async Task<IActionResult> DislikeMovie(int movieId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isDisliked = await _movieService.DislikeMovieAsync(userId, movieId);
-            TempData["Message"] = isDisliked ? "Film beğenilmedi." : "Film zaten beğenilmemiş.";
-            return RedirectToAction("Details", new { id = movieId });
-        }
+    bool isLiked = await _movieService.LikeMovieAsync(userId, movieId);
 
-        // İzleme listesine ekleme işlemi
-        public async Task<IActionResult> AddToWatchList(int movieId)
-        {
-            int userId = 1; // Manuel kullanıcı ID
-            bool isAdded = await _movieService.AddToWatchListAsync(userId, movieId);
-            TempData["Message"] = isAdded ? "Film izleme listesine eklendi." : "Film zaten izleme listenizde.";
-            return RedirectToAction("Details", new { id = movieId });
-        }
+    // Film zaten beğenilmişse mesajı gösterme
+    if (isLiked)
+    {
+        TempData["Message"] = "Film beğenildi.";
+    }
+    else
+    {
+        TempData["Message"] = "Film zaten beğenilmiş.";
+    }
+
+    return RedirectToAction("Details", new { id = movieId });
+}
+
+
+public async Task<IActionResult> DislikeMovie(int movieId)
+{
+    int userId = GetCurrentUserId();
+    bool isDisliked = await _movieService.DislikeMovieAsync(userId, movieId);
+
+    // Film zaten beğenilmemişse mesajı gösterme
+    if (isDisliked)
+    {
+        TempData["Message"] = "Film beğenilmedi.";
+    }
+    else
+    {
+        TempData["Message"] = "Film zaten beğenilmemiş.";
+    }
+
+    return RedirectToAction("Details", new { id = movieId });
+}
+
+
+public async Task<IActionResult> AddToWatchList(int movieId)
+{
+    int userId = GetCurrentUserId();
+    bool isAdded = await _movieService.AddToWatchListAsync(userId, movieId);
+
+    // Film zaten izleme listesinde mi kontrol et
+    if (isAdded)
+    {
+        TempData["Message"] = "Film izleme listesine eklendi.";
+    }
+    else
+    {
+        TempData["Message"] = "Film zaten izleme listenizde.";
+    }
+
+    return RedirectToAction("Details", new { id = movieId });
+}
+
 
         // Film detay sayfası
         public async Task<IActionResult> Details(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
+{
+    if (id == null)
+    {
+        return NotFound();
+    }
 
-            var movie = await _context.Movies
-                .Include(m => m.MovieGenres!)
-                    .ThenInclude(mg => mg.Genre)
-                .Include(m => m.MovieLikes)
-                .Include(m => m.MovieDislikes)
-                .Include(m => m.MovieComments!)
-                    .ThenInclude(mc => mc.User)
-                .AsNoTracking()
-                .FirstOrDefaultAsync(m => m.MovieId == id);
+    var movie = await _context.Movies
+        .Include(m => m.MovieGenres!)
+            .ThenInclude(mg => mg.Genre)
+        .Include(m => m.MovieLikes)
+        .Include(m => m.MovieDislikes)
+        .Include(m => m.MovieComments!)
+            .ThenInclude(mc => mc.User)
+        .AsNoTracking()
+        .FirstOrDefaultAsync(m => m.MovieId == id);
 
-            if (movie == null)
-            {
-                return NotFound();
-            }
+    if (movie == null)
+    {
+        return NotFound();
+    }
+    ViewData["Comments"] = movie.MovieComments.Count;
+    
+    
+    int userId = GetCurrentUserId();
+    ViewData["UserId"] = userId;
 
-            var userId = User?.FindFirstValue(ClaimTypes.NameIdentifier) ?? "1"; // Varsayılan kullanıcı ID'si 1
-            ViewData["UserId"] = userId;
+    movie.MovieComments ??= new List<MovieComment>();
+    movie.MovieGenres ??= new List<MovieGenre>();
 
-            movie.MovieComments ??= new List<MovieComment>();
-            movie.MovieGenres ??= new List<MovieGenre>();
+    // Burada veritabanındaki prosedür ile yorum sayısını da alalım
+    var totalMovieComments = _commentRepository.GetTotalMovieComments(movie.MovieId);
+    ViewData["TotalComments"] = totalMovieComments;
 
-            var movieList = new List<Movie> { movie };
+    var movieList = new List<Movie> { movie };
 
-            return View(movieList);
-        }
+    return View(movieList);
+}
+
 
         // Yorum eklemek
         [HttpPost]
@@ -173,6 +213,16 @@ namespace WatchMe.Controllers
                 .ToListAsync();
             return PartialView("_NetflixCard", movies);
         }
+
+        private int GetCurrentUserId()
+        {
+            var userIdString = User?.FindFirstValue(ClaimTypes.NameIdentifier);
+            if (int.TryParse(userIdString, out int userId))
+            {
+                return userId;
+            }
+            return 1; // Varsayılan kullanıcı ID'si (Güvenlik açısından geliştirilebilir)
+        }
     }
     
 }
