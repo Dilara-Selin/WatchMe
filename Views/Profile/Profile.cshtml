@@ -3,7 +3,6 @@
 @using WatchMe.Models
 @using WatchMe.Controllers
 @using WatchMe.Services
-
 @inject AppDbContext _context;
 @model List<WatchMe.Models.Movie>
 
@@ -63,7 +62,7 @@
     else
     {
         <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard", Model)
+        @await Html.PartialAsync("_LikedCard")
     }
 </section>
 
@@ -79,7 +78,7 @@
     else
     {
         <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard", Model)
+        @await Html.PartialAsync("_LikedCard")
     }
 </section>
 
@@ -95,12 +94,15 @@
     else
     {
         <!-- Pass entire list to _LikedCard partial view -->
-        @await Html.PartialAsync("_LikedCard", Model)
+        @await Html.PartialAsync("_LikedCard")
     }
 </section>
 
 <!-- Profile Card Styles -->
 <style>
+    h2{
+        color: #333;
+    }
     .profile-card {
         max-width: 900px;
         margin: auto;
