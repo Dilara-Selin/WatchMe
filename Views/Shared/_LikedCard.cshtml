@@ -10,16 +10,19 @@ else
     <div class="liked-category-items">
         @foreach (var movie in Model)
         {
-            <div class="liked-category-item">
-                <!-- Resim -->
-                <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath ?? "/default.jpg"}")" class="movie-poster"
-                     alt="@movie.Title" />
- <div class="remove-btn">Sil</div>
-                <!-- Puanlama -->
-                <div class="rating">
-                    @movie.Popularity?.ToString("0")
+            <a href="@Url.Action("Details", "Movie", new { id = movie.MovieId })" class="category-item-link">
+                <div class="category-item">
+                    <!-- Resim -->
+                    <img src="@($"https://image.tmdb.org/t/p/w500{movie.PosterPath}")" 
+                         class="movie-poster" 
+                         alt="@movie.Title" />
+
+                    <!-- Puanlama -->
+                    <div class="rating">
+                        @movie.Popularity?.ToString("0.0")
+                    </div>
                 </div>
-            </div>
+            </a>
         }
     </div>
    

@@ -36,8 +36,16 @@ namespace WatchMe.Controllers
         ViewData["UserName"] = user?.Nickname;
         ViewData["UserEmail"] = user?.Email;
         
-            // gRPC istemcisi oluştur
-            var channel = GrpcChannel.ForAddress("https://localhost:5001");
+             var handler = new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = HttpClientHandler.DangerousAcceptAnyServerCertificateValidator
+    };
+
+    // gRPC istemcisi oluştur
+    var channel = GrpcChannel.ForAddress("https://localhost:5001", new GrpcChannelOptions
+    {
+        HttpHandler = handler
+    });
             var client = new MovieLikeService.MovieLikeServiceClient(channel);
 
         
