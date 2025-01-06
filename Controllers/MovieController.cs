@@ -113,6 +113,16 @@ namespace WatchMe.Controllers
             _context.MovieComments.Update(comment);
             await _context.SaveChangesAsync();
 
+            // Güncellenmiş yorum sonrası film detaylarına yönlendir
+    return RedirectToAction("Details", "Movie", new { id = movieId });
+        }
+    // Yorum güncellemek
+    [HttpPost]
+  public async Task<IActionResult> UpdateCommentRedirect(int commentId, string newComment, int movieId)
+  {
+    var comment = await _context.MovieComments
+        .FirstOrDefaultAsync(c => c.MovieCommentId == commentId);
+
             return RedirectToAction("Details", new { id = movieId });
         }
 
@@ -164,4 +174,5 @@ namespace WatchMe.Controllers
             return PartialView("_NetflixCard", movies);
         }
     }
+    
 }
