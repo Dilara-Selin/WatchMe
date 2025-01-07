@@ -511,8 +511,6 @@ C:/Users/gzltm/OneDrive/Masaustu/web-proje/WatchMe/obj/Debug/net9.0/ref/WatchMe.
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/5tntaof660-muycvpuwrr.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/3r9aklemlt-87fc7y1x7t.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/j7nywdi7ub-mlv21k5csn.gz
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz
-/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/staticwebassets.build.json
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/staticwebassets.development.json
 /Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/staticwebassets.build.endpoints.json
@@ -626,3 +624,11 @@ C:/Users/gzltm/OneDrive/Masaustu/web-proje/WatchMe/obj/Debug/net9.0/compressed/3
 /Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Speech.dll
 /Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Threading.AccessControl.dll
 /Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/runtimes/win/lib/net9.0/System.Windows.Extensions.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/Castle.Core.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/Moq.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/xunit.abstractions.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/xunit.assert.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/xunit.core.dll
+/Users/dilaraselin/Desktop/WatchMe/bin/Debug/net9.0/xunit.execution.dotnet.dll
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz
+/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz

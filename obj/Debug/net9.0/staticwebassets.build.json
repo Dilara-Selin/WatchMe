@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "1M1OdyTcT46+scUPrXE8o1xCuBDXqCJMGkSEtzU9rkw=",
+  "Hash": "N1VGdTCmQrAEDCmJ/u+VV6LgFZhf2e/1dBSEQ8vle64=",
   "Source": "WatchMe",
   "BasePath": "_content/WatchMe",
   "Mode": "Default",
@@ -563,12 +563,12 @@
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/lib/jquery-validation-unobtrusive/dist/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz",
+      "Identity": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz",
       "SourceId": "WatchMe",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/WatchMe",
-      "RelativePath": "WatchMe#[.{fingerprint=w9fc1pta0b}]!.bundle.scp.css.gz",
+      "RelativePath": "WatchMe#[.{fingerprint=rcsybarwa6}]!.bundle.scp.css.gz",
       "AssetKind": "All",
       "AssetMode": "Reference",
       "AssetRole": "Alternative",
@@ -577,8 +577,8 @@
       "RelatedAsset": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/projectbundle/WatchMe.bundle.scp.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yee8rjlspb",
-      "Integrity": "Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=",
+      "Fingerprint": "62287fk66a",
+      "Integrity": "bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/projectbundle/WatchMe.bundle.scp.css"
@@ -1256,12 +1256,12 @@
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Identity": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz",
+      "Identity": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz",
       "SourceId": "WatchMe",
       "SourceType": "Computed",
       "ContentRoot": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/WatchMe",
-      "RelativePath": "WatchMe#[.{fingerprint=w9fc1pta0b}]?.styles.css.gz",
+      "RelativePath": "WatchMe#[.{fingerprint=rcsybarwa6}]?.styles.css.gz",
       "AssetKind": "All",
       "AssetMode": "CurrentProject",
       "AssetRole": "Alternative",
@@ -1270,8 +1270,8 @@
       "RelatedAsset": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yee8rjlspb",
-      "Integrity": "Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=",
+      "Fingerprint": "62287fk66a",
+      "Integrity": "bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css"
@@ -1459,8 +1459,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ApplicationBundle",
-      "Fingerprint": "w9fc1pta0b",
-      "Integrity": "VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=",
+      "Fingerprint": "rcsybarwa6",
+      "Integrity": "C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css"
@@ -1480,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "ScopedCss",
       "AssetTraitValue": "ProjectBundle",
-      "Fingerprint": "w9fc1pta0b",
-      "Integrity": "VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=",
+      "Fingerprint": "rcsybarwa6",
+      "Integrity": "C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/projectbundle/WatchMe.bundle.scp.css"
@@ -24398,12 +24398,12 @@
     },
     {
       "Route": "WatchMe.bundle.scp.css",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001872659176"
+          "Quality": "0.001876172608"
         }
       ],
       "ResponseHeaders": [
@@ -24413,15 +24413,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24441,13 +24441,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "W/\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
@@ -24470,11 +24470,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24484,13 +24484,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
     {
       "Route": "WatchMe.bundle.scp.css.gz",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24499,7 +24499,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "Content-Type",
@@ -24507,11 +24507,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24529,18 +24529,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM="
+          "Value": "sha256-bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA="
         }
       ]
     },
     {
-      "Route": "WatchMe.styles.css",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz",
+      "Route": "WatchMe.rcsybarwa6.bundle.scp.css",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001872659176"
+          "Quality": "0.001876172608"
         }
       ],
       "ResponseHeaders": [
@@ -24550,152 +24550,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
-        }
-      ]
-    },
-    {
-      "Route": "WatchMe.styles.css",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1076"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
-        }
-      ]
-    },
-    {
-      "Route": "WatchMe.styles.css.gz",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "533"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM="
-        }
-      ]
-    },
-    {
-      "Route": "WatchMe.w9fc1pta0b.bundle.scp.css",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.001872659176"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "533"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24715,13 +24578,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "W/\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24729,12 +24592,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
     {
-      "Route": "WatchMe.w9fc1pta0b.bundle.scp.css",
+      "Route": "WatchMe.rcsybarwa6.bundle.scp.css",
       "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/projectbundle/WatchMe.bundle.scp.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24752,11 +24615,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24766,7 +24629,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24774,13 +24637,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
     {
-      "Route": "WatchMe.w9fc1pta0b.bundle.scp.css.gz",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-w9fc1pta0b.gz",
+      "Route": "WatchMe.rcsybarwa6.bundle.scp.css.gz",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/c4cacbw3gw-rcsybarwa6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24789,7 +24652,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "Content-Type",
@@ -24797,11 +24660,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24819,7 +24682,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24827,18 +24690,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM="
+          "Value": "sha256-bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA="
         }
       ]
     },
     {
-      "Route": "WatchMe.w9fc1pta0b.styles.css",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz",
+      "Route": "WatchMe.rcsybarwa6.styles.css",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.001872659176"
+          "Quality": "0.001876172608"
         }
       ],
       "ResponseHeaders": [
@@ -24848,15 +24711,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24876,13 +24739,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "W/\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24890,12 +24753,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
     {
-      "Route": "WatchMe.w9fc1pta0b.styles.css",
+      "Route": "WatchMe.rcsybarwa6.styles.css",
       "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -24913,11 +24776,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE=\""
+          "Value": "\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24927,7 +24790,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24935,13 +24798,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-VM3rkD1vk7F6Y29MJxOFpX4Q6AcwAhMPIBii2KKIAcE="
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
         }
       ]
     },
     {
-      "Route": "WatchMe.w9fc1pta0b.styles.css.gz",
-      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-w9fc1pta0b.gz",
+      "Route": "WatchMe.rcsybarwa6.styles.css.gz",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -24950,7 +24813,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "533"
+          "Value": "532"
         },
         {
           "Name": "Content-Type",
@@ -24958,11 +24821,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM=\""
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 06 Jan 2025 20:29:28 GMT"
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -24980,7 +24843,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "w9fc1pta0b"
+          "Value": "rcsybarwa6"
         },
         {
           "Name": "label",
@@ -24988,7 +24851,144 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-Bo57MUneGnL9JmCEHpJesu349d+WS6Q7xwemoW+qkbM="
+          "Value": "sha256-bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA="
+        }
+      ]
+    },
+    {
+      "Route": "WatchMe.styles.css",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001876172608"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
+        }
+      ]
+    },
+    {
+      "Route": "WatchMe.styles.css",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/scopedcss/bundle/WatchMe.styles.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1076"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-C8e9GW8RqP40VvVLwjTnbnBYwqXTBlXLmWwSiKSuehI="
+        }
+      ]
+    },
+    {
+      "Route": "WatchMe.styles.css.gz",
+      "AssetFile": "/Users/dilaraselin/Desktop/WatchMe/obj/Debug/net9.0/compressed/vwvs8oxb7g-rcsybarwa6.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "532"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 07 Jan 2025 10:43:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-bn9JuleyW3BulePnNgoFVv/XccC3J9RdYfaE4neIRAA="
         }
       ]
     }

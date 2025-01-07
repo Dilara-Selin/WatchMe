@@ -20,6 +20,7 @@ public class SearchController : Controller
         {
             return BadRequest("Search term cannot be empty.");
         }
+         ViewData["ShowHeaderFooter"] = true;
 
         // SOAPClient üzerinden film ve dizi arama
         var movies = _soapClient.GetMovies(searchTerm) as List<WatchMe.Models.Movie>;

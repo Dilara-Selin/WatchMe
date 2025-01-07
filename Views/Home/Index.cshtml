@@ -45,16 +45,13 @@
 @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 
-<section>
-    <h2>İzlenenler</h2>
-    @await Component.InvokeAsync("WatchList", new { userId = 1 })
-</section>
+
 
 
 
 <style>
     h2{
-        color: #333;
+        color: #fff;
     }
     .hero {
         position: relative;
