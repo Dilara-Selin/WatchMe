@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj": {}
+    "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj": {}
   },
   "projects": {
-    "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj": {
+    "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
+        "projectUniqueName": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
         "projectName": "WatchMe",
-        "projectPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\WatchMe.csproj",
-        "packagesPath": "C:\\Users\\gzltm\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\",
+        "projectPath": "/Users/dilaraselin/Desktop/WatchMe/WatchMe.csproj",
+        "packagesPath": "/Users/dilaraselin/.nuget/packages/",
+        "outputPath": "/Users/dilaraselin/Desktop/WatchMe/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\gzltm\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/dilaraselin/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -95,9 +89,17 @@
               "target": "Package",
               "version": "[9.0.0, )"
             },
+            "Microsoft.Windows.Compatibility": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[9.0.2, )"
+            },
+            "SoapCore": {
+              "target": "Package",
+              "version": "[1.1.0.51, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -131,7 +133,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.101/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.101/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
