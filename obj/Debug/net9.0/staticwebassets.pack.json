@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\WatchMe.3qcibn6zpz.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css",
+      "PackagePath": "staticwebassets\\css\\details.css"
+    },
+    {
       "Id": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\style.css",
       "PackagePath": "staticwebassets\\css\\style.css"
     },
@@ -47,6 +51,10 @@
     {
       "Id": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\hobbit.jpg",
       "PackagePath": "staticwebassets\\images\\hobbit.jpg"
+    },
+    {
+      "Id": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
     },
     {
       "Id": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\oppenheimer.jpeg",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LpVl72kdTY3ACMP5DtVuI7BUkuFeDxEA92dn5GYr0Ns=",
+  "Hash": "1Vm4ugOJLsbxEQoRPciISXJSPsVK1CRoRc3WLtzsqeQ=",
   "Source": "WatchMe",
   "BasePath": "_content/WatchMe",
   "Mode": "Default",
@@ -31,8 +31,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "yftpy5cpfg",
-      "Integrity": "sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8=",
+      "Fingerprint": "mns2a2zywm",
+      "Integrity": "kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
@@ -52,11 +52,32 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "ysv1bhacdl",
-      "Integrity": "vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8=",
+      "Fingerprint": "d7q4cn5biw",
+      "Integrity": "V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\329trxomj6-ocwojc8yd8.gz",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "css/details#[.{fingerprint=ocwojc8yd8}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "mb2k3wjcd7",
+      "Integrity": "PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css"
     },
     {
       "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\3r9aklemlt-87fc7y1x7t.gz",
@@ -73,8 +94,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "6yehlwgclf",
-      "Integrity": "7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4=",
+      "Fingerprint": "p5ev1mo4sb",
+      "Integrity": "bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map"
@@ -94,8 +115,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "lsrbc0hkbt",
-      "Integrity": "df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE=",
+      "Fingerprint": "1fp9w2itex",
+      "Integrity": "7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\LICENSE.md"
@@ -136,8 +157,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "93s9kmgeq8",
-      "Integrity": "i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4=",
+      "Fingerprint": "nd4sjw69va",
+      "Integrity": "KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
@@ -262,8 +283,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "4jymmnvikd",
-      "Integrity": "UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s=",
+      "Fingerprint": "p2onhk81wj",
+      "Integrity": "oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
@@ -304,8 +325,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "kylvg5djs1",
-      "Integrity": "7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk=",
+      "Fingerprint": "uya4g6am6w",
+      "Integrity": "hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
@@ -325,8 +346,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "gs9lvivu8f",
-      "Integrity": "0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA=",
+      "Fingerprint": "qmaqe8uvdz",
+      "Integrity": "UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
@@ -346,8 +367,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "medyw2v0g8",
-      "Integrity": "XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk=",
+      "Fingerprint": "l17cqhtmgf",
+      "Integrity": "V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
@@ -388,8 +409,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "alm6no8o3r",
-      "Integrity": "3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k=",
+      "Fingerprint": "sgz3bfuucz",
+      "Integrity": "tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
@@ -409,8 +430,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jzt1faf8c9",
-      "Integrity": "8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k=",
+      "Fingerprint": "hq2hiirxit",
+      "Integrity": "GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\dist\\jquery.min.map"
@@ -430,8 +451,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "mytyes4x0w",
-      "Integrity": "0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk=",
+      "Fingerprint": "we7ylowkap",
+      "Integrity": "+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
@@ -451,8 +472,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "2tsi8wjm49",
-      "Integrity": "qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8=",
+      "Fingerprint": "goh6yfn9uv",
+      "Integrity": "ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
@@ -472,8 +493,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "x7xhrh30on",
-      "Integrity": "bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU=",
+      "Fingerprint": "vo1c50q1ou",
+      "Integrity": "cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
@@ -493,8 +514,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0e0do7h7ay",
-      "Integrity": "OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg=",
+      "Fingerprint": "8j9rvpuvlg",
+      "Integrity": "BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
@@ -598,8 +619,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hwhgmdus79",
-      "Integrity": "XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA=",
+      "Fingerprint": "klzs96wner",
+      "Integrity": "OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
@@ -682,8 +703,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "it9bluv7eg",
-      "Integrity": "diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs=",
+      "Fingerprint": "bxpwye2e51",
+      "Integrity": "wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
@@ -745,8 +766,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\style.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "zknlnn1boc",
-      "Integrity": "XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs=",
+      "Fingerprint": "prd8yyojat",
+      "Integrity": "S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\style.css"
@@ -766,8 +787,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "hwn1wvut14",
-      "Integrity": "QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4=",
+      "Fingerprint": "1jikaxfu3u",
+      "Integrity": "M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
@@ -808,8 +829,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "bc08mbyxz7",
-      "Integrity": "RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI=",
+      "Fingerprint": "q71g5sacw1",
+      "Integrity": "Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
@@ -829,8 +850,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "w02302tvku",
-      "Integrity": "APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ=",
+      "Fingerprint": "2yhmugv22u",
+      "Integrity": "WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
@@ -850,8 +871,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "1qozky2jjc",
-      "Integrity": "F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU=",
+      "Fingerprint": "k2cjzt041l",
+      "Integrity": "JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\jquery\\LICENSE.txt"
@@ -871,8 +892,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\favicon.ico",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "jefwejb9ld",
-      "Integrity": "+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=",
+      "Fingerprint": "nezsohjtde",
+      "Integrity": "wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\favicon.ico"
@@ -934,8 +955,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "sjj8jmsebs",
-      "Integrity": "CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk=",
+      "Fingerprint": "oaf6lwhfh1",
+      "Integrity": "8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
@@ -1039,8 +1060,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "swt17hl2xb",
-      "Integrity": "rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE=",
+      "Fingerprint": "j9d5qn8h15",
+      "Integrity": "mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
@@ -1081,8 +1102,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "50wtf4x982",
-      "Integrity": "u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg=",
+      "Fingerprint": "42umladzh7",
+      "Integrity": "rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
@@ -1186,8 +1207,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "c31in2ygw4",
-      "Integrity": "+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o=",
+      "Fingerprint": "n46fiwynw7",
+      "Integrity": "OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
@@ -1207,8 +1228,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "074iv4flnu",
-      "Integrity": "vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o=",
+      "Fingerprint": "2wjbbjit2u",
+      "Integrity": "crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
@@ -1291,8 +1312,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tq4za9huo2",
-      "Integrity": "xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98=",
+      "Fingerprint": "yedk7y2ovv",
+      "Integrity": "FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
@@ -1333,8 +1354,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "tmwl38fjzo",
-      "Integrity": "dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0=",
+      "Fingerprint": "svb68clhd0",
+      "Integrity": "WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
@@ -1396,8 +1417,8 @@
       "RelatedAsset": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "efj6o7965p",
-      "Integrity": "JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA=",
+      "Fingerprint": "hack831yxc",
+      "Integrity": "xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
@@ -1464,6 +1485,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\WatchMe.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "css/details#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ocwojc8yd8",
+      "Integrity": "OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\details.css"
     },
     {
       "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\style.css",
@@ -1695,6 +1737,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\hobbit.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\logo.png",
+      "SourceId": "WatchMe",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\",
+      "BasePath": "_content/WatchMe",
+      "RelativePath": "images/logo#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "8uiznsusg0",
+      "Integrity": "IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\logo.png"
     },
     {
       "Identity": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\oppenheimer.jpeg",
@@ -3190,6 +3253,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/details.css",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\329trxomj6-ocwojc8yd8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000659195781"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1516"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw="
+        }
+      ]
+    },
+    {
+      "Route": "css/details.css",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw="
+        }
+      ]
+    },
+    {
+      "Route": "css/details.css.gz",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\329trxomj6-ocwojc8yd8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk="
+        }
+      ]
+    },
+    {
+      "Route": "css/details.ocwojc8yd8.css",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\329trxomj6-ocwojc8yd8.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000659195781"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1516"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocwojc8yd8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw="
+        }
+      ]
+    },
+    {
+      "Route": "css/details.ocwojc8yd8.css",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\css\\details.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4937"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocwojc8yd8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-OKM9ky4+v/rPzTVWnyayXNY932bDY1zxGZEpOHQFJrw="
+        }
+      ]
+    },
+    {
+      "Route": "css/details.ocwojc8yd8.css.gz",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\329trxomj6-ocwojc8yd8.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1516"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ocwojc8yd8"
+        },
+        {
+          "Name": "label",
+          "Value": "css/details.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-PiR+8iA0IYqGzuE9297j0IHUNnB9Ba9jU4XuR2fnEIk="
+        }
+      ]
+    },
+    {
       "Route": "css/style.2rpazmqv7r.css",
       "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\obj\\Debug\\net9.0\\compressed\\hqk2iq2jjs-2rpazmqv7r.gz",
       "Selectors": [
@@ -3210,7 +3571,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs=\""
+          "Value": "\"S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM=\""
         },
         {
           "Name": "Last-Modified",
@@ -3316,7 +3677,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs=\""
+          "Value": "\"S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM=\""
         },
         {
           "Name": "Last-Modified",
@@ -3346,7 +3707,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs="
+          "Value": "sha256-S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM="
         }
       ]
     },
@@ -3371,7 +3732,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs=\""
+          "Value": "\"S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM=\""
         },
         {
           "Name": "Last-Modified",
@@ -3461,7 +3822,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs=\""
+          "Value": "\"S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM=\""
         },
         {
           "Name": "Last-Modified",
@@ -3483,7 +3844,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XZJqNPZYYD3F8yExxC/z1CiCuvpM+g4LUwuygYg4Ivs="
+          "Value": "sha256-S55igwJrpMKFp4Yv4WPmfv3kMurL0HOT/Pm+Fc6FGLM="
         }
       ]
     },
@@ -3508,7 +3869,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
         },
         {
           "Name": "Last-Modified",
@@ -3614,7 +3975,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
         },
         {
           "Name": "Last-Modified",
@@ -3644,7 +4005,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
         }
       ]
     },
@@ -3669,7 +4030,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
         },
         {
           "Name": "Last-Modified",
@@ -3759,7 +4120,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4=\""
+          "Value": "\"wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0=\""
         },
         {
           "Name": "Last-Modified",
@@ -3781,7 +4142,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+/824NtfTA0L7Mr42Fo+86YJP4R5cigdi9S7Fx5VVl4="
+          "Value": "sha256-wfFuuYm+Lh6RbCeeiUqxw334b/hIOkp5j9eokGUM1Y0="
         }
       ]
     },
@@ -4520,6 +4881,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-XCBubAyMOK7cc658lgQtbxz/MCZgLGAFbse3RcJsJjk="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.8uiznsusg0.png",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "8uiznsusg0"
+        },
+        {
+          "Name": "label",
+          "Value": "images/logo.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc="
+        }
+      ]
+    },
+    {
+      "Route": "images/logo.png",
+      "AssetFile": "C:\\Users\\gzltm\\OneDrive\\Masaustu\\web-proje\\WatchMe\\wwwroot\\images\\logo.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "28755"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 06 Jan 2025 21:58:52 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-IJFjBLIuOJdrVudSSHxigaDZLnTBg9k2atPW7207JMc="
         }
       ]
     },
@@ -6402,7 +6845,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8=\""
+          "Value": "\"ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=\""
         },
         {
           "Name": "Last-Modified",
@@ -6508,7 +6951,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8=\""
+          "Value": "\"ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=\""
         },
         {
           "Name": "Last-Modified",
@@ -6538,7 +6981,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8="
+          "Value": "sha256-ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU="
         }
       ]
     },
@@ -6608,7 +7051,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8=\""
+          "Value": "\"ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=\""
         },
         {
           "Name": "Last-Modified",
@@ -6698,7 +7141,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8=\""
+          "Value": "\"ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU=\""
         },
         {
           "Name": "Last-Modified",
@@ -6720,7 +7163,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-qmUx2B7T8Z7IyR6EmiZHJbZ+Uv3DJEHJ7ssn+kdW1i8="
+          "Value": "sha256-ALPf6qsZMu+Ui8l8jPJJF3MhTcq6uwrQhRWeWJL4ixU="
         }
       ]
     },
@@ -6837,7 +7280,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s=\""
+          "Value": "\"oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=\""
         },
         {
           "Name": "Last-Modified",
@@ -6943,7 +7386,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s=\""
+          "Value": "\"oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=\""
         },
         {
           "Name": "Last-Modified",
@@ -6973,7 +7416,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s="
+          "Value": "sha256-oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE="
         }
       ]
     },
@@ -7043,7 +7486,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s=\""
+          "Value": "\"oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=\""
         },
         {
           "Name": "Last-Modified",
@@ -7133,7 +7576,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s=\""
+          "Value": "\"oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE=\""
         },
         {
           "Name": "Last-Modified",
@@ -7155,7 +7598,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-UFok8WEocoom8UMWS+es3N9UMNaqVZdnOD5Mbxj/F/s="
+          "Value": "sha256-oRq8VZWOZX9mMbVVZBzw8rSxg8D8d6u0L0zM8MMIvaE="
         }
       ]
     },
@@ -7433,7 +7876,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU=\""
+          "Value": "\"cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=\""
         },
         {
           "Name": "Last-Modified",
@@ -7539,7 +7982,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU=\""
+          "Value": "\"cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=\""
         },
         {
           "Name": "Last-Modified",
@@ -7569,7 +8012,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU="
+          "Value": "sha256-cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0="
         }
       ]
     },
@@ -7639,7 +8082,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU=\""
+          "Value": "\"cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=\""
         },
         {
           "Name": "Last-Modified",
@@ -7729,7 +8172,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU=\""
+          "Value": "\"cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0=\""
         },
         {
           "Name": "Last-Modified",
@@ -7751,7 +8194,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-bdHm4sBDLNpP67uFuXfCYaN9yiCl0fweKmoFyHzKAKU="
+          "Value": "sha256-cWfRgogdfOCr54Ae/lxY515FP4TJyUwc4Ae6uejBPI0="
         }
       ]
     },
@@ -8029,7 +8472,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8=\""
+          "Value": "\"V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=\""
         },
         {
           "Name": "Last-Modified",
@@ -8135,7 +8578,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8=\""
+          "Value": "\"V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=\""
         },
         {
           "Name": "Last-Modified",
@@ -8165,7 +8608,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8="
+          "Value": "sha256-V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A="
         }
       ]
     },
@@ -8235,7 +8678,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8=\""
+          "Value": "\"V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=\""
         },
         {
           "Name": "Last-Modified",
@@ -8325,7 +8768,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8=\""
+          "Value": "\"V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A=\""
         },
         {
           "Name": "Last-Modified",
@@ -8347,7 +8790,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vjltiawUeinKvizAJ7M/caKNxLqW7ps84r4WfEONYm8="
+          "Value": "sha256-V0pKRwbw4DysvYMPCNK3s+wSdDLvMWJFO+hKrptop7A="
         }
       ]
     },
@@ -8786,7 +9229,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98=\""
+          "Value": "\"FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=\""
         },
         {
           "Name": "Last-Modified",
@@ -8892,7 +9335,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98=\""
+          "Value": "\"FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=\""
         },
         {
           "Name": "Last-Modified",
@@ -8922,7 +9365,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98="
+          "Value": "sha256-FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M="
         }
       ]
     },
@@ -8992,7 +9435,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98=\""
+          "Value": "\"FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=\""
         },
         {
           "Name": "Last-Modified",
@@ -9082,7 +9525,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98=\""
+          "Value": "\"FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M=\""
         },
         {
           "Name": "Last-Modified",
@@ -9104,7 +9547,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-xaCEzyQKiV85d/qRa4kxMNFkjAE8f+xqfcs47A+bU98="
+          "Value": "sha256-FjCFey27wknG6tewZOhPfnDgvIw+sTBly7wTSXKSd8M="
         }
       ]
     },
@@ -9221,7 +9664,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o=\""
+          "Value": "\"crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -9327,7 +9770,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o=\""
+          "Value": "\"crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -9357,7 +9800,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o="
+          "Value": "sha256-crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ="
         }
       ]
     },
@@ -9427,7 +9870,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o=\""
+          "Value": "\"crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -9517,7 +9960,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o=\""
+          "Value": "\"crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ=\""
         },
         {
           "Name": "Last-Modified",
@@ -9539,7 +9982,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vCT+VlfhQBUpS2HBKOH8r5ZoklQw4DVpGqswUUUN/3o="
+          "Value": "sha256-crByaO07mpJWuBndE5BbjmmKh3fj/Y0m8CmJDe+c3UQ="
         }
       ]
     },
@@ -9978,7 +10421,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs=\""
+          "Value": "\"wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=\""
         },
         {
           "Name": "Last-Modified",
@@ -10084,7 +10527,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs=\""
+          "Value": "\"wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=\""
         },
         {
           "Name": "Last-Modified",
@@ -10114,7 +10557,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs="
+          "Value": "sha256-wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc="
         }
       ]
     },
@@ -10184,7 +10627,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs=\""
+          "Value": "\"wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=\""
         },
         {
           "Name": "Last-Modified",
@@ -10274,7 +10717,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs=\""
+          "Value": "\"wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc=\""
         },
         {
           "Name": "Last-Modified",
@@ -10296,7 +10739,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-diO2QLE0yMAAew7HQTblCm4XSnn3B/UCayHN9rHzWCs="
+          "Value": "sha256-wbodRxtgYaqKj+oSPNLIcKGMPziM41to/lFFylYjPBc="
         }
       ]
     },
@@ -10458,7 +10901,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk=\""
+          "Value": "\"V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -10564,7 +11007,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk=\""
+          "Value": "\"V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -10594,7 +11037,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk="
+          "Value": "sha256-V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8="
         }
       ]
     },
@@ -10619,7 +11062,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk=\""
+          "Value": "\"V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -10709,7 +11152,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk=\""
+          "Value": "\"V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -10731,7 +11174,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XtA0iscOHJ5VhOGbMSuA+/EtbSO9eGu3paD3xmISDCk="
+          "Value": "sha256-V8PtmOQL2VKj+/TynmuZNdDDyU9qG1QJ7FFnxVcN6Y8="
         }
       ]
     },
@@ -11215,7 +11658,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8=\""
+          "Value": "\"kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=\""
         },
         {
           "Name": "Last-Modified",
@@ -11305,7 +11748,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8=\""
+          "Value": "\"kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=\""
         },
         {
           "Name": "Last-Modified",
@@ -11327,7 +11770,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8="
+          "Value": "sha256-kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE="
         }
       ]
     },
@@ -11352,7 +11795,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8=\""
+          "Value": "\"kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=\""
         },
         {
           "Name": "Last-Modified",
@@ -11458,7 +11901,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8=\""
+          "Value": "\"kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE=\""
         },
         {
           "Name": "Last-Modified",
@@ -11488,7 +11931,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-sgi5Kepkl3Dg2bCvP8dDG05m2De435WzMamvkQXqbC8="
+          "Value": "sha256-kj9zDkFgjDpUKwWasvv6a42LMVfqKjl/Ji5Z5LCNoRE="
         }
       ]
     },
@@ -11766,7 +12209,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI=\""
+          "Value": "\"Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=\""
         },
         {
           "Name": "Last-Modified",
@@ -11872,7 +12315,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI=\""
+          "Value": "\"Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=\""
         },
         {
           "Name": "Last-Modified",
@@ -11902,7 +12345,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI="
+          "Value": "sha256-Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g="
         }
       ]
     },
@@ -11972,7 +12415,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI=\""
+          "Value": "\"Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=\""
         },
         {
           "Name": "Last-Modified",
@@ -12062,7 +12505,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI=\""
+          "Value": "\"Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g=\""
         },
         {
           "Name": "Last-Modified",
@@ -12084,7 +12527,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-RQr8+RwL5iy9y9f4CBQTW/ZvhfqawQ+e/L2FVneMUeI="
+          "Value": "sha256-Jh/LtOdwAMNcT5vpbDEGsxe6Xv18LR1JqK4h/+hvs5g="
         }
       ]
     },
@@ -12407,7 +12850,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4=\""
+          "Value": "\"KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=\""
         },
         {
           "Name": "Last-Modified",
@@ -12513,7 +12956,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4=\""
+          "Value": "\"KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=\""
         },
         {
           "Name": "Last-Modified",
@@ -12543,7 +12986,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4="
+          "Value": "sha256-KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE="
         }
       ]
     },
@@ -12568,7 +13011,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4=\""
+          "Value": "\"KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=\""
         },
         {
           "Name": "Last-Modified",
@@ -12658,7 +13101,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4=\""
+          "Value": "\"KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE=\""
         },
         {
           "Name": "Last-Modified",
@@ -12680,7 +13123,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-i93LDQ234gPIkUQkIc0/9sJEzqXyf8EBOksfgYR30V4="
+          "Value": "sha256-KxjxxNhsaUlb9m0XwKNiMkNh6OuNbjdGXY0bmR5CTyE="
         }
       ]
     },
@@ -13003,7 +13446,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk=\""
+          "Value": "\"8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=\""
         },
         {
           "Name": "Last-Modified",
@@ -13093,7 +13536,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk=\""
+          "Value": "\"8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=\""
         },
         {
           "Name": "Last-Modified",
@@ -13115,7 +13558,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk="
+          "Value": "sha256-8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w="
         }
       ]
     },
@@ -13140,7 +13583,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk=\""
+          "Value": "\"8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=\""
         },
         {
           "Name": "Last-Modified",
@@ -13246,7 +13689,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk=\""
+          "Value": "\"8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w=\""
         },
         {
           "Name": "Last-Modified",
@@ -13276,7 +13719,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-CKDg86xi9pW/IY+jBKojCJ2lCb9fghS+r0GO3BA0/uk="
+          "Value": "sha256-8BfOknNd4oMU2u3DUY0C/Sjhoh3NGtdqE8kxApMdM2w="
         }
       ]
     },
@@ -13599,7 +14042,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4=\""
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
         },
         {
           "Name": "Last-Modified",
@@ -13689,7 +14132,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4=\""
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
         },
         {
           "Name": "Last-Modified",
@@ -13711,7 +14154,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4="
+          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
         }
       ]
     },
@@ -13736,7 +14179,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4=\""
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
         },
         {
           "Name": "Last-Modified",
@@ -13842,7 +14285,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4=\""
+          "Value": "\"M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I=\""
         },
         {
           "Name": "Last-Modified",
@@ -13872,7 +14315,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-QUuhsynxQOlfK5DQYL8JUQrTx7RfwGegz12iNenpec4="
+          "Value": "sha256-M4d5aODk+LnhCUggc/Xb6RX+Jh4E7X4KN58JXJR757I="
         }
       ]
     },
@@ -14195,7 +14638,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk=\""
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
         },
         {
           "Name": "Last-Modified",
@@ -14285,7 +14728,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk=\""
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
         },
         {
           "Name": "Last-Modified",
@@ -14307,7 +14750,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk="
+          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
         }
       ]
     },
@@ -14332,7 +14775,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk=\""
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
         },
         {
           "Name": "Last-Modified",
@@ -14438,7 +14881,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk=\""
+          "Value": "\"+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA=\""
         },
         {
           "Name": "Last-Modified",
@@ -14468,7 +14911,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0vUD4yU9EsbYFJN7o3MTz6YEEuzR2rBTCsiEfim4MMk="
+          "Value": "sha256-+BDBQp6fX0jhehydJj3yEmXwPsq4ccmpRwJadVX8HUA="
         }
       ]
     },
@@ -14630,7 +15073,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA=\""
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
         },
         {
           "Name": "Last-Modified",
@@ -14736,7 +15179,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA=\""
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
         },
         {
           "Name": "Last-Modified",
@@ -14766,7 +15209,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA="
+          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
         }
       ]
     },
@@ -14791,7 +15234,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA=\""
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
         },
         {
           "Name": "Last-Modified",
@@ -14881,7 +15324,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA=\""
+          "Value": "\"xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU=\""
         },
         {
           "Name": "Last-Modified",
@@ -14903,7 +15346,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-JrRzHeTjl4b6Uz7Bw07aa6fJXaq6cvJS2O5NNTMvdsA="
+          "Value": "sha256-xwBA3wRtW8i96gsexkmrLvL85Ad0ueCN6i7I23oFCMU="
         }
       ]
     },
@@ -15181,7 +15624,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE=\""
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
         },
         {
           "Name": "Last-Modified",
@@ -15287,7 +15730,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE=\""
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
         },
         {
           "Name": "Last-Modified",
@@ -15317,7 +15760,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE="
+          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
         }
       ]
     },
@@ -15387,7 +15830,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE=\""
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
         },
         {
           "Name": "Last-Modified",
@@ -15477,7 +15920,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE=\""
+          "Value": "\"mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc=\""
         },
         {
           "Name": "Last-Modified",
@@ -15499,7 +15942,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-rGg/dX06muNMQeG+lvJ69DzvgGZZqrpPVSkJcrP/VHE="
+          "Value": "sha256-mVddgYoZfee39UGvBjujrPfkX4g9o5fJQgtcRjDKhDc="
         }
       ]
     },
@@ -16099,7 +16542,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k=\""
+          "Value": "\"tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=\""
         },
         {
           "Name": "Last-Modified",
@@ -16205,7 +16648,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k=\""
+          "Value": "\"tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=\""
         },
         {
           "Name": "Last-Modified",
@@ -16235,7 +16678,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k="
+          "Value": "sha256-tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY="
         }
       ]
     },
@@ -16305,7 +16748,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k=\""
+          "Value": "\"tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=\""
         },
         {
           "Name": "Last-Modified",
@@ -16395,7 +16838,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k=\""
+          "Value": "\"tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY=\""
         },
         {
           "Name": "Last-Modified",
@@ -16417,7 +16860,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-3g4vdMAw6KkaWMu7zxiegTSQXuIuaVWaJntJNk6Do5k="
+          "Value": "sha256-tELcWYAIUkPDirIRIOTlom3Q4rdUDcA6PdYMCRE48xY="
         }
       ]
     },
@@ -16740,7 +17183,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0=\""
+          "Value": "\"WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=\""
         },
         {
           "Name": "Last-Modified",
@@ -16846,7 +17289,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0=\""
+          "Value": "\"WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=\""
         },
         {
           "Name": "Last-Modified",
@@ -16876,7 +17319,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0="
+          "Value": "sha256-WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0="
         }
       ]
     },
@@ -16901,7 +17344,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0=\""
+          "Value": "\"WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=\""
         },
         {
           "Name": "Last-Modified",
@@ -16991,7 +17434,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0=\""
+          "Value": "\"WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0=\""
         },
         {
           "Name": "Last-Modified",
@@ -17013,7 +17456,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-dUvVCTDcbFI5khZmwMe5maCZAf7l+wbCXWpFM2MAcb0="
+          "Value": "sha256-WDZTOK9dQrex7lgPEZZ+JZhLPdAF5GijB8N4Mslft/0="
         }
       ]
     },
@@ -17175,7 +17618,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA=\""
+          "Value": "\"UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=\""
         },
         {
           "Name": "Last-Modified",
@@ -17281,7 +17724,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA=\""
+          "Value": "\"UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=\""
         },
         {
           "Name": "Last-Modified",
@@ -17311,7 +17754,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA="
+          "Value": "sha256-UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw="
         }
       ]
     },
@@ -17336,7 +17779,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA=\""
+          "Value": "\"UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=\""
         },
         {
           "Name": "Last-Modified",
@@ -17426,7 +17869,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA=\""
+          "Value": "\"UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw=\""
         },
         {
           "Name": "Last-Modified",
@@ -17448,7 +17891,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-0JvrXl3Fun1tyY8CGbKufhGRvhas6A+KnWWHAP5nHDA="
+          "Value": "sha256-UkbVh5EDjQ9ElFF2VidPUKfIufgj0++IuUkiaieELZw="
         }
       ]
     },
@@ -17932,7 +18375,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA=\""
+          "Value": "\"OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=\""
         },
         {
           "Name": "Last-Modified",
@@ -18022,7 +18465,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA=\""
+          "Value": "\"OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=\""
         },
         {
           "Name": "Last-Modified",
@@ -18044,7 +18487,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA="
+          "Value": "sha256-OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk="
         }
       ]
     },
@@ -18069,7 +18512,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA=\""
+          "Value": "\"OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=\""
         },
         {
           "Name": "Last-Modified",
@@ -18175,7 +18618,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA=\""
+          "Value": "\"OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk=\""
         },
         {
           "Name": "Last-Modified",
@@ -18205,7 +18648,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XzeYhXaQJrHdbijtyDQZA554STHRsDLunRk6rrp9uiA="
+          "Value": "sha256-OOTujdl0QaxckSfKf4pISOdHdkWzUDKsaJmaS87CLzk="
         }
       ]
     },
@@ -18367,7 +18810,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg=\""
+          "Value": "\"rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=\""
         },
         {
           "Name": "Last-Modified",
@@ -18473,7 +18916,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg=\""
+          "Value": "\"rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=\""
         },
         {
           "Name": "Last-Modified",
@@ -18503,7 +18946,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg="
+          "Value": "sha256-rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA="
         }
       ]
     },
@@ -18528,7 +18971,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg=\""
+          "Value": "\"rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=\""
         },
         {
           "Name": "Last-Modified",
@@ -18618,7 +19061,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg=\""
+          "Value": "\"rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA=\""
         },
         {
           "Name": "Last-Modified",
@@ -18640,7 +19083,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-u2mOk/RK572xHpx+p8mZVoEsMjVVs6FWDy+64B1PiEg="
+          "Value": "sha256-rG54EGAHotdOswEyoMsIu5DDixozuuoKxcO7w4hcEQA="
         }
       ]
     },
@@ -18918,7 +19361,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o=\""
+          "Value": "\"OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=\""
         },
         {
           "Name": "Last-Modified",
@@ -19024,7 +19467,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o=\""
+          "Value": "\"OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=\""
         },
         {
           "Name": "Last-Modified",
@@ -19054,7 +19497,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o="
+          "Value": "sha256-OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM="
         }
       ]
     },
@@ -19124,7 +19567,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o=\""
+          "Value": "\"OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=\""
         },
         {
           "Name": "Last-Modified",
@@ -19214,7 +19657,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o=\""
+          "Value": "\"OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM=\""
         },
         {
           "Name": "Last-Modified",
@@ -19236,7 +19679,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+Eq85CUhXtCIudgWXb2bTNfSCy1lIH6+A8wRel8gj8o="
+          "Value": "sha256-OYFfBiMA8guQaokr7JUEKEquxVFRad17YsNbJdI0IKM="
         }
       ]
     },
@@ -20100,7 +20543,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ=\""
+          "Value": "\"WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -20206,7 +20649,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ=\""
+          "Value": "\"WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -20236,7 +20679,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ="
+          "Value": "sha256-WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4="
         }
       ]
     },
@@ -20261,7 +20704,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ=\""
+          "Value": "\"WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -20351,7 +20794,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ=\""
+          "Value": "\"WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4=\""
         },
         {
           "Name": "Last-Modified",
@@ -20373,7 +20816,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-APtdKLCc/nK1prhFh6ytj7bT4olz3PpIJvWoVVDWRGQ="
+          "Value": "sha256-WpL0kbwDHONKwUu+fAC6nKQXtZOBY20Gsspcn336Iz4="
         }
       ]
     },
@@ -20398,7 +20841,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg=\""
+          "Value": "\"BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=\""
         },
         {
           "Name": "Last-Modified",
@@ -20504,7 +20947,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg=\""
+          "Value": "\"BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=\""
         },
         {
           "Name": "Last-Modified",
@@ -20534,7 +20977,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg="
+          "Value": "sha256-BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM="
         }
       ]
     },
@@ -20559,7 +21002,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg=\""
+          "Value": "\"BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=\""
         },
         {
           "Name": "Last-Modified",
@@ -20649,7 +21092,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg=\""
+          "Value": "\"BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM=\""
         },
         {
           "Name": "Last-Modified",
@@ -20671,7 +21114,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-OKcAH26EdtYnFJnGz+MbWB/hAFCDtD3z03cV7nsNxlg="
+          "Value": "sha256-BIw6qCD4ysNHqPUgCkXJ/h+XlQ/h+2MuYEbvs/ZN+kM="
         }
       ]
     },
@@ -20696,7 +21139,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk=\""
+          "Value": "\"hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=\""
         },
         {
           "Name": "Last-Modified",
@@ -20786,7 +21229,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk=\""
+          "Value": "\"hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=\""
         },
         {
           "Name": "Last-Modified",
@@ -20808,7 +21251,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk="
+          "Value": "sha256-hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg="
         }
       ]
     },
@@ -20833,7 +21276,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk=\""
+          "Value": "\"hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=\""
         },
         {
           "Name": "Last-Modified",
@@ -20939,7 +21382,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk=\""
+          "Value": "\"hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg=\""
         },
         {
           "Name": "Last-Modified",
@@ -20969,7 +21412,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7FTIZ9Sy+RoTM5k0vROIfrcx1T2djqzEhoWUTyEGYdk="
+          "Value": "sha256-hhhjkgaWyJk2NWrF/LyhTIDOF42U+kBX72IU2K4RWJg="
         }
       ]
     },
@@ -21590,7 +22033,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE=\""
+          "Value": "\"7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=\""
         },
         {
           "Name": "Last-Modified",
@@ -21680,7 +22123,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE=\""
+          "Value": "\"7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=\""
         },
         {
           "Name": "Last-Modified",
@@ -21702,7 +22145,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE="
+          "Value": "sha256-7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4="
         }
       ]
     },
@@ -21727,7 +22170,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE=\""
+          "Value": "\"7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=\""
         },
         {
           "Name": "Last-Modified",
@@ -21833,7 +22276,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE=\""
+          "Value": "\"7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4=\""
         },
         {
           "Name": "Last-Modified",
@@ -21863,7 +22306,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-df0X2bOJ06A+a9mf19qzQWvt7CCNnAaCX0yWSHwxdUE="
+          "Value": "sha256-7bAe2yT3obcUnzDyFQyuh4GI4iC/NGB4Bs4gZaY3Wj4="
         }
       ]
     },
@@ -22484,7 +22927,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k=\""
+          "Value": "\"GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=\""
         },
         {
           "Name": "Last-Modified",
@@ -22574,7 +23017,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k=\""
+          "Value": "\"GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=\""
         },
         {
           "Name": "Last-Modified",
@@ -22596,7 +23039,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k="
+          "Value": "sha256-GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag="
         }
       ]
     },
@@ -22621,7 +23064,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k=\""
+          "Value": "\"GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=\""
         },
         {
           "Name": "Last-Modified",
@@ -22727,7 +23170,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k=\""
+          "Value": "\"GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag=\""
         },
         {
           "Name": "Last-Modified",
@@ -22757,7 +23200,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-8epPvrp0xBXMxP0dnv0Axc8mOq0ExnxVGCD6PJLwD7k="
+          "Value": "sha256-GfL7M76amKU+B+H1o4WVh7q13GpiC7L6scp3ODOz3ag="
         }
       ]
     },
@@ -23080,7 +23523,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4=\""
+          "Value": "\"bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -23186,7 +23629,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4=\""
+          "Value": "\"bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -23216,7 +23659,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4="
+          "Value": "sha256-bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8="
         }
       ]
     },
@@ -23539,7 +23982,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4=\""
+          "Value": "\"bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -23629,7 +24072,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4=\""
+          "Value": "\"bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8=\""
         },
         {
           "Name": "Last-Modified",
@@ -23651,7 +24094,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7hpoe4sIU0dU1PutwtmtqeLFZasIJnQeD5iGeXrySb4="
+          "Value": "sha256-bZLUSM9fRhNJKF4yFjKvv9iU/j2aC1lJtEqR9u5n6y8="
         }
       ]
     },
@@ -23676,7 +24119,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU=\""
+          "Value": "\"JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=\""
         },
         {
           "Name": "Last-Modified",
@@ -23782,7 +24225,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU=\""
+          "Value": "\"JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=\""
         },
         {
           "Name": "Last-Modified",
@@ -23812,7 +24255,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU="
+          "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
         }
       ]
     },
@@ -23837,7 +24280,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU=\""
+          "Value": "\"JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=\""
         },
         {
           "Name": "Last-Modified",
@@ -23927,7 +24370,7 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU=\""
+          "Value": "\"JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y=\""
         },
         {
           "Name": "Last-Modified",
@@ -23949,7 +24392,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-F1wMlgb/juW08DFUssW6Pm9EBKfjXXRiSK0F5FgXxJU="
+          "Value": "sha256-JKWeHUaANNuffeRatdc54UCb84RoxjEw/nTq8Mops8Y="
         }
       ]
     },

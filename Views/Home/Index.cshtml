@@ -46,8 +46,8 @@
 @await Html.PartialAsync("_NetflixCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
 
 <section>
-    <h2>Beğendiklerin</h2>
-    @await Html.PartialAsync("_LikedCard", await _context.Movies.OrderBy(x => Guid.NewGuid()).Take(6).ToListAsync())
+    <h2>İzlenenler</h2>
+    @await Component.InvokeAsync("WatchList", new { userId = 1 })
 </section>
 
 

@@ -803,3 +803,6 @@ C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\refint\Watch
 C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\WatchMe.pdb
 C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\WatchMe.genruntimeconfig.cache
 C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\ref\WatchMe.dll
+C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\bin\Debug\net9.0\package-lock.json
+C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\bin\Debug\net9.0\package.json
+C:\Users\gzltm\OneDrive\Masaustu\web-proje\WatchMe\obj\Debug\net9.0\compressed\329trxomj6-ocwojc8yd8.gz
