@@ -73,15 +73,10 @@ namespace WatchMe.Controllers
         .Select(md => md.Movie)
         .ToListAsync();
 
-        var watchedMovies = await _context.MovieWatchLists
-        .Where(mw => mw.UserId == userId)
-        .Select(mw => mw.Movie)
-        .ToListAsync();
 
         // ViewData üzerinden iki listeyi gönderiyoruz
     ViewData["LikedMovies"] = likedMovies;
     ViewData["DislikedMovies"] = dislikedMovies;
-    ViewData["WatchedMovies"] = watchedMovies;
 
             return View();
         }
