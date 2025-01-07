@@ -222,7 +222,14 @@ public async Task<IActionResult> AddToWatchList(int movieId)
                 return userId;
             }
             return 1; // Varsayılan kullanıcı ID'si (Güvenlik açısından geliştirilebilir)
-        }
+        }
+
+        public async Task<IActionResult> RemoveMovie(int movieId)
+{
+    int userId = GetCurrentUserId();
+    await _movieService.RemoveMovieFromWatchlistAsync(userId, movieId);
+    return RedirectToAction("Details", new { id = movieId });
+}
     }
     
 }

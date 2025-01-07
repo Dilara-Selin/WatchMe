@@ -58,6 +58,11 @@
                         <input type="hidden" name="movieId" value="@movie.MovieId" />
                         <button type="submit" class="btn btn-action">+ Watchlist</button>
                     </form>
+
+                    <form method="post" asp-action="RemoveMovie" class="action-form">
+                        <input type="hidden" name="movieId" value="@movie.MovieId" />
+                        <button type="submit" class="btn btn-action">- Remove Watchlist</button>
+                    </form>
                 </div>
             </div>
         </div>
